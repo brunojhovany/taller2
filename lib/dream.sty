@@ -1,0 +1,157 @@
+% macro definitions for dream logos and other dream specific things
+
+% changed by img 13-mar-92 as \vec did't work under latex 14th Jan 91
+% with the nfss.  (replace % with \relax)
+% Modified img/mrg 15-feb-93 to use PostScript (via PSTricks.tex)
+%  use the command \dreamPS to use PS.
+\newcommand{\path}{lib/}
+\def\oyster{{$Oyster$}}
+
+\def\clam{{%
+	\setbox0=\hbox{$^A$}%
+        \setbox1=\hbox{$A$}%
+        \dimen0=\ht1%
+        \advance\dimen0 by-\ht0%
+	{$CL$\kern-.25em\raise\dimen0\box0\kern-.11em$M$}}}
+
+\def\whelk{{$Whelk$}}
+
+\def\mollusc{{$Mollusc$}} % added by Geraint 12 May 93
+
+\def\dream{{%
+        \setbox0=\hbox{$^E$}%
+        \setbox1=\hbox{$E$}%
+        \dimen0=\ht1%
+        \advance\dimen0 by-\ht0%
+        \setbox2=\hbox{$_A$}%
+        $D$\kern-.1em$R$\kern-.09em\raise\dimen0\box0\kern-.09em\raise\dp2\box2\kern-0.09em$M$}}
+
+\renewcommand{\vec}[1]{\relax
+        \mbox{\relax
+                \setbox0=\hbox{$#1$}\relax
+                \ifdim\wd0<1ex\relax
+                \makebox[1ex]{$#1$}\hspace*{-1ex}\raisebox{1.05\ht0}{\makebox[1ex]{\tiny\rightarrowfill}}\relax
+                \else\relax
+                \makebox[\wd0]{$#1$}\hspace*{-\wd0}\raisebox{1.05\ht0}{\makebox[\wd0]{\tiny\rightarrowfill}}\relax
+                \fi\relax
+        }\relax
+}
+
+% Wave front annotations:
+\newcommand{\wf}[1]{\fbox{$#1$}}
+\newcommand{\wfp}[1]{\fbox{$#1$}^{+}}
+\newcommand{\wfn}[1]{\fbox{$#1$}^{-}}
+% Out bound wave front
+\long\def\fboxl#1{\leavevmode\setbox\@tempboxa\hbox{#1}\@tempdima\fboxrule
+    \advance\@tempdima \fboxsep \advance\@tempdima \dp\@tempboxa
+    \@tempdimb\@tempdima \advance\@tempdimb \ht\@tempboxa
+                         \advance\@tempdimb \fboxsep
+                         \advance\@tempdimb \fboxrule
+   \hbox{\lower \@tempdima\hbox
+        {\vbox{\hrule \@height \fboxrule
+               \hbox{\vrule \@width \fboxrule \hskip\fboxsep
+                     \vbox{\vskip\fboxsep \box\@tempboxa\vskip\fboxsep}\hskip
+                     \fboxsep}%
+               \hrule \@height \fboxrule}\relax
+	\hskip 3\fboxrule %do some dotted lines
+        \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+        \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}}}}
+
+\long\def\fboxr#1{\leavevmode\setbox\@tempboxa\hbox{#1}\@tempdima\fboxrule
+    \advance\@tempdima \fboxsep \advance\@tempdima \dp\@tempboxa
+    \@tempdimb\@tempdima \advance\@tempdimb \ht\@tempboxa
+                         \advance\@tempdimb \fboxsep
+                         \advance\@tempdimb \fboxrule
+   \hbox{\lower \@tempdima\hbox
+         {\vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+         \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+	\vbox{\hrule \@height \fboxrule
+               \hbox{\hskip\fboxsep
+                     \vbox{\vskip\fboxsep\box\@tempboxa\vskip\fboxsep}\relax
+		     \hskip\fboxsep
+                     \vrule\@width \fboxrule}\relax
+               \hrule \@height \fboxrule}}}}
+
+\long\def\fboxm#1{\leavevmode\setbox\@tempboxa\hbox{#1}\@tempdima\fboxrule
+    \advance\@tempdima \fboxsep \advance\@tempdima \dp\@tempboxa
+    \@tempdimb\@tempdima \advance\@tempdimb \ht\@tempboxa
+                         \advance\@tempdimb \fboxsep
+                         \advance\@tempdimb \fboxrule
+   \hbox{\lower \@tempdima\hbox
+        {\vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+         \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+	\vbox{\hrule \@height \fboxrule
+                \hbox{\hskip\fboxsep
+                      \vbox{\vskip\fboxsep\box\@tempboxa\vskip\fboxsep}\relax
+		      \hskip\fboxsep}\relax
+                      \hrule \@height \fboxrule}\relax
+         \hskip 3\fboxrule %do some dotted lines
+         \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax
+         \vbox to \@tempdimb
+	      {\hrule \@height \fboxrule \@width 3\fboxrule
+	       \vfill
+	       \hrule \@height \fboxrule \@width 3\fboxrule}\hskip 3\fboxrule\relax}}}
+	
+
+\newcommand{\wfout}[1]{{\fbox{$#1$}^{\uparrow}}}
+\newcommand{\wfoutr}[1]{{\fboxr{$#1$}^{\uparrow}}}
+\newcommand{\wfoutl}[1]{\fboxl{$#1$}}
+\newcommand{\wfoutm}[1]{\fboxm{$#1$}}
+
+\newcommand{\wfl}[1]{\fboxl{$#1$}}
+\newcommand{\wfr}[1]{\fboxr{$#1$}}
+\newcommand{\wfm}[1]{\fboxm{$#1$}}
+
+\newcommand{\wfpl}[1]{{\fboxl{$#1$}^{+}}}
+\newcommand{\wfpr}[1]{{\fboxr{$#1$}^{+}}}
+\newcommand{\wfpm}[1]{{\fboxm{$#1$}^{+}}}
+
+\newcommand{\wfnl}[1]{{\fboxl{$#1$}^{-}}}
+\newcommand{\wfnr}[1]{{\fboxr{$#1$}^{-}}}
+\newcommand{\wfnm}[1]{{\fboxm{$#1$}^{-}}}
+
+
+% In bound wave front
+\newcommand{\wfinl}[1]{\fboxl{$#1$}}
+\newcommand{\wfinr}[1]{\fboxr{$#1$}^{\downarrow}}
+\newcommand{\wfinm}[1]{\fboxm{$#1$}}
+\newcommand{\wfin}[1]{\fbox{$#1$}^{\downarrow}}
+% Potential wave fronts
+% these are obsolete now (img/mrg/10-feb-94)
+%  use \pwf instead
+\newcommand{\smallpwf}[1]{\raisebox{-0.6mm}{\dashbox{2}(8,9){\mbox{$#1$}}}}
+\newcommand{\medpwf}[1]{\raisebox{-0.9mm}{\dashbox{2}(10,12){\mbox{$#1$}}}}
+\newcommand{\bigpwf}[1]{\raisebox{-1.8mm}{\dashbox{2}(22,15){\mbox{$#1$}}}}
+\newcommand{\largepwf}[1]{\raisebox{-2mm}{\dashbox{2}(28,15){\mbox{$#1$}}}}
+\input \path pwf.sty
+
+% Wave hole
+\newcommand{\wh}[1]{\underline{\mbox{$#1$}}}
+
+% Sink
+\newcommand{\sink}[1]{\left\lfloor #1 \right\rfloor}
+
+\input \path dreamPS.sty
+\input \path dreambib.sty
+\endinput

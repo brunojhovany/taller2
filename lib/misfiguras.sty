@@ -1,0 +1,232 @@
+\usepackage{pstricks}
+\usepackage[tiling]{pst-fill}
+%\usepackage{pst-text,pst-grad,ae,multido,pst-eps}
+%\usepackage{multido}
+
+\AtBeginDocument{\def\Square{%
+  \pspicture(0.5,0.5)
+    \psframe[dimen=middle](0.5,0.5)
+  \endpspicture}}
+
+\def\PstTiling{true}
+
+
+\newcommand{\Tiling}[2][]{%
+  \edef\Temp{#1}%
+  \begin{pspicture}#2
+    \ifx\Temp\empty
+      \psframe[fillstyle=boxfill]#2
+    \else
+      \psframe[fillstyle=boxfill,#1]#2
+    \fi
+  \end{pspicture}}
+
+
+ % LPT prototile
+   \newcommand{\ProtoTileLPT}[2]{%
+     \psset{dimen=middle,linestyle=none,fillstyle=solid}
+     \psframe[fillcolor=#1](1,1)
+     \psset{fillcolor=#2}
+     \pswedge(0,0){0.5}{0}{90} \pswedge(1,1){0.5}{-180}{-90}}
+   % Counter to change the random seed
+   \newcount\InitCounter
+   % LPT tile
+   \newcommand{\BasicTileLPT}[2]{%
+     \InitCounter=\the\time
+     \pscustom{\code{%
+       rand \the\InitCounter\space sub 2 mod 0 eq \pslbrace
+       row column add 2 mod 0 eq \pslbrace}}
+     \begin{pspicture}(1,1)\ProtoTileLPT{#1}{#2}\end{pspicture}%
+     \pscustom{\code{\psrbrace \pslbrace}}
+     \ProtoTileLPT{#2}{#1}%
+     \pscustom{\code{%
+       \psrbrace ifelse \psrbrace \pslbrace row column add 2 mod 0 eq \pslbrace}}
+     \psrotateleft{\ProtoTileLPT{#2}{#1}}\pscustom{\code{\psrbrace \pslbrace}}
+     \psrotateleft{\ProtoTileLPT{#1}{#2}}\pscustom{\code{\psrbrace ifelse \psrbrace ifelse}}}
+
+
+%SheepHead
+\def\SheepHead#1{%
+\pspicture(3,1.5)
+   \pscustom[liftpen=2,fillstyle=solid,fillcolor=#1]{%
+      \pscurve(0.5,-0.2)(0.6,0.5)(0.2,1.3)(0,1.5)(0,1.5)(0.4,1.3)(0.8,1.5)
+                (2.2,1.9)(3,1.5)(3,1.5)(3.2,1.3)(3.6,0.5)(3.4,-0.3)(3,0)
+                (2.2,0.4)(0.5,-0.2)}
+   \pscircle*(2.65,1.25){0.12\psunit}                 % Eye
+   \psccurve*(3.5,0.3)(3.35,0.45)(3.5,0.6)(3.6,0.4)% Muzzle
+   \pscurve(3,0.35)(3.3,0.1)(3.6,0.05)                % Mouth
+   \pscurve(2.3,1.3)(2.1,1.5)(2.15,1.7)
+   \pscurve(2.1,1.7)(2.35,1.6)(2.45,1.4)               % Ear
+\endpspicture}
+
+
+% Conversión a decimal
+  \def\x{\catcode`\p=12
+         \catcode`\t=12}
+  \def\y{\catcode`\p=11
+         \catcode`\t=11}
+    \x \def\dec#1pt{#1} \y
+  \def\decimal#1{\expandafter
+    \dec\the#1}
+
+
+\newcommand{\WangTile}[4]{%
+  \begin{pspicture}(1,1)
+    \pspolygon*[linecolor=#1](0,0)(0,1)(0.5,0.5)
+    \pspolygon*[linecolor=#2](0,1)(1,1)(0.5,0.5)
+    \pspolygon*[linecolor=#3](1,1)(1,0)(0.5,0.5)
+    \pspolygon*[linecolor=#4](1,0)(0,0)(0.5,0.5)
+  \end{pspicture}}
+\newcommand{\WangTileA}{\WangTile{cyan}{yellow}{cyan}{cyan}}
+\newcommand{\WangTileB}{\WangTile{yellow}{cyan}{cyan}{red}}
+\newcommand{\WangTileC}{\WangTile{cyan}{red}{yellow}{yellow}}
+\newcommand{\WangTiles}[1][]{%
+  \begin{pspicture}(3,3) \psset{ref=lb}
+    \rput(0,2){\WangTileB} \rput(1,2){\WangTileA}%
+    \rput(2,2){\WangTileC} \rput(0,1){\WangTileC}%
+    \rput(1,1){\WangTileB} \rput(2,1){\WangTileA}
+    \rput(0,0){\WangTileA} \rput(1,0){\WangTileC}%
+    \rput(2,0){\WangTileB}
+    #1
+  \end{pspicture}}
+
+
+
+% Dibujo de razón de semejanza
+% #1 ancho de la figura
+% #2 alto de la figura
+
+\newcommand{\Razsem}[2]{%
+  \newdimen\xcl \xcl=#1pt
+  \divide\xcl by 4
+  \psboxfill{\Square}
+  \psset{gridcolor=green, subgridcolor=yellow}
+  \begin{pspicture}(#1,#2)
+     \psgrid
+     \rput(\decimal\xcl,2.0){\Tiling[fillsepx=2mm]{(1,2)}\hfill}
+     \multiply\xcl by 3
+     \rput(\decimal\xcl,3.0){\Tiling[fillsepx=2mm]{(2,4)}\hfill}
+  \end{pspicture}}
+
+
+% Dibujo de razón de semejanza
+% #1 ancho de la figura
+% #2 alto de la figura
+% #3 opciones de relleo de psboxfill 
+% #4 opciones de Tiling
+\newcommand{\Razsema}[4]{%
+  \newdimen\xcl \xcl=#1pt
+  \divide\xcl by 4
+  \psboxfill{#3}
+  \psset{gridcolor=green, subgridcolor=yellow}
+  \begin{pspicture}(#1,#2)
+     \psgrid
+     \rput(\decimal\xcl,2.0){\Tiling[#4]{(1,2)}\hfill}
+     \multiply\xcl by 3
+     \rput(\decimal\xcl,3.0){\Tiling[fillcyclex=2,fillloopadd=1]{(2,4)}\hfill}
+  \end{pspicture}}
+
+% Dibujo de razón de semejanza
+% #1 ancho de la figura
+% #2 alto de la figura
+% #3 opciones de relleo de psboxfill 
+% #4 dimensiones del primer cuadro
+% #5 dimensiones del segundo cuadro
+\newcommand{\Razsemb}[5]{%
+  \newdimen\xcl \xcl=#1pt
+  \divide\xcl by 4
+  \psboxfill{#3}
+  \psset{gridcolor=green, subgridcolor=yellow}
+  \begin{pspicture}(#1,#2)
+     \psgrid
+     \rput(\decimal\xcl,2.0){\Tiling[fillcyclex=2,fillloopadd=1]{#4}}
+     \multiply\xcl by 3
+     \rput(\decimal\xcl,3.0){\Tiling[fillcyclex=2,fillloopadd=1]{#5}}
+  \end{pspicture}}
+
+% Dibujo de razón de semejanza
+% #1 ancho de la figura
+% #2 alto de la figura
+% #3 opciones de relleo de psboxfill 
+% #4 dimensiones del primer cuadro
+% #5 dimensiones del segundo cuadro
+\newcommand{\Razsemc}[5]{%
+  \newdimen\xcl \xcl=#1pt
+  \divide\xcl by 4
+  \psboxfill{#3}
+  \psset{gridcolor=green, subgridcolor=yellow}
+  \begin{pspicture}(#1,#2)
+     \psgrid
+     \rput(\decimal\xcl,2.0){\Tiling{#4}}
+     \multiply\xcl by 3
+     \rput(\decimal\xcl,3.0){\Tiling{#5}}
+  \end{pspicture}}
+
+
+  %\newdimen\ycll \ycll=#2pt
+  %\advance\ycll by #4
+  %\divide\ycll by 2
+
+\newcommand{\pos}[2]{
+  \newdimen\temp \temp=#1pt
+  \divide\temp by 2
+  \newdimen\xcll \xcll=\xcl
+  \advance\xcll by -\temp
+  \advance\xcll by -0.2pt}
+
+
+% Dibujo de razón de semejanza
+% #1 ancho de la figura
+% #2 alto de la figura
+% #3 ancho del primer cuadro
+% #4 alto del primer cuadro
+% #5 ancho del segundo cuadro
+% #6 alto del segundo cuadro
+\newcommand{\Semejanza}[7]{%
+  \newdimen\xcl \xcl=#1pt %posición en x del primer poligono
+  \divide\xcl by 4
+  \newdimen\ycl \ycl=#2pt %posición en y del primer poligono
+  \divide\ycl by 2
+  \newdimen\temp \temp=#3pt
+  \divide\temp by 2
+  \newdimen\xcll \xcll=\xcl %posición en x de la línea vertical del primer poligono
+  \advance\xcll by -\temp
+  \advance\xcll by -0.2pt
+  \newdimen\ycll \ycll=\ycl %posición en y de la línea vertical del primer poligono
+  \temp=#4pt \divide\temp by 2
+  \advance\ycll by -\temp
+  \temp=\ycll
+  \advance\temp by #4pt
+  \psboxfill{#7}
+  \psset{gridcolor=green, subgridcolor=yellow}
+  \begin{pspicture}(#1,#2)
+     %\psgrid
+     \rput(\decimal\xcl,\decimal\ycl){\Tiling{(#3,#4)}}
+     \psline{|-|}(\decimal\xcll,\decimal\ycll)(\decimal\xcll,\decimal\temp)
+     \temp=\xcll 		\advance\temp by -0.6pt
+     \rput(\decimal\temp,\decimal\ycl){$a = #4$}
+     \advance\xcll by 0.2pt	\advance\ycll by -0.2pt
+     \temp=\xcll 		\advance\temp by #3pt
+     \psline{|-|}(\decimal\xcll,\decimal\ycll)(\decimal\temp,\decimal\ycll)
+     \temp=\ycll 		\advance\temp by -0.3pt
+     \rput(\decimal\xcl,\decimal\temp){$c = #3$}
+     \multiply\xcl by 3
+     \rput(\decimal\xcl,\decimal\ycl){\Tiling{(#5,#6)}}
+     \temp = #5pt	  \divide\temp by 2
+     \xcll=\xcl %posición en x de la línea vertical del primer poligono
+     \advance\xcll by -\temp
+     \advance\xcll by -0.2pt
+     \ycll=\ycl %posición en y de la línea vertical del primer poligono
+     \temp=#6pt \divide\temp by 2
+     \advance\ycll by -\temp
+     \temp=\ycll
+     \advance\temp by #6pt
+     \psline{|-|}(\decimal\xcll,\decimal\ycll)(\decimal\xcll,\decimal\temp)
+     \temp=\xcll 		\advance\temp by -0.6pt
+     \rput(\decimal\temp,\decimal\ycl){$a = #6$}
+     \advance\xcll by 0.2pt	\advance\ycll by -0.2pt
+     \temp=\xcll 		\advance\temp by #5pt
+     \psline{|-|}(\decimal\xcll,\decimal\ycll)(\decimal\temp,\decimal\ycll)
+     \temp=\ycll 		\advance\temp by -0.3pt
+     \rput(\decimal\xcl,\decimal\temp){$c = #5$}
+  \end{pspicture}}

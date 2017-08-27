@@ -1,0 +1,93 @@
+%%%%%%%%%%%%%%%%%%%%%%%HEAD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,letterpaper]{lib/proyMachote}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%PACKAGE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{alltt,xspace} 
+\usepackage{epsfig}
+\usepackage{graphicx,color}
+%\usepackage[refpages]{gloss}
+\usepackage{glossaries} % make a separate list of acronyms
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{pifont}
+
+\usepackage{subfigure}
+
+\usepackage{hyperref}
+
+\usepackage[utf8]{inputenc} % Para poner acentos y eñes directamente.
+\usepackage[T1]{fontenc}
+%\usepackage[spanish]{babel} % Division de sílabas y títulos en español.
+\usepackage{natbib}
+
+\usepackage{lib/misfiguras} %pstricks
+\usepackage{pst-node}
+\usepackage{listings}  % Para escribir código fuente como programas
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\include{ref/newcommands}
+%\makeglossaries   
+
+
+
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Materia%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Portada%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \include{portada/portada}  %% Modifica datos para agregar portada
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%CONFIGURATIONS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \pagenumbering{roman}
+   \pagestyle{plain}
+   \thispagestyle{empty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Table of Contents%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \tableofcontents
+   \listoffigures
+   \listoftables
+   \mainbodystarts
+   \pagenumbering{arabic} 
+   \setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Chapters%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \input{chapters/resumen/index}
+    \input{chapters/introduccion/index}
+    \input{chapters/marcoTeorico/index}    
+    \input{chapters/trabajoRelacionado/index}
+    \input{chapters/studentsWork/index}
+    
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%References%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \bibliographystyle{plain}%plain, alpha, apalike, ieeetr
+   \bibliography{ref/ref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%Appendixes%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   \appendix
+    \input{chapters/observacionesRes/index}
+    \input{chapters/generales/index}
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}
+
+
