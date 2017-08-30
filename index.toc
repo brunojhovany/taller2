@@ -1,30 +1,29 @@
-\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Antecedentes del Problema}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Planteamiento del Problema}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Hip\IeC {\'o}tesis}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos}{3}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Objetivos Generales}{3}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Objetivos Espec\IeC {\'\i }ficos}{3}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Justificaci\IeC {\'o}n}{3}{section.1.5}
-\contentsline {chapter}{\numberline {2}Marco Teo\GenericError {(inputenc) }{Package inputenc Error: Unicode char ́ (U+301)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}rico}{4}{chapter.2}
-\contentsline {chapter}{\numberline {3}Trabajo Relacionado}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Ejemplo de Citas y Pie de P\IeC {\'a}gina}{6}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{6}{section.4.1}
-\contentsline {section}{\numberline {4.2}Dos ejemplos de citas}{6}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Cita de libros}{6}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Otros dos ejemplos de cita}{7}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Cita de tesis}{7}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}URL cita}{7}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Pie de P\IeC {\'a}gina}{7}{section.4.4}
-\contentsline {chapter}{\numberline {A}Observaciones Resueltas}{9}{appendix.A}
-\contentsline {section}{\numberline {A.1}Observaciones del Asesor: Dr. Juan Carlos L\IeC {\'o}pez Pimentel}{9}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}Observaciones realizadas}{9}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Correcciones realizadas}{9}{subsection.A.1.2}
-\contentsline {section}{\numberline {A.2}Observaciones del Revisor 01: Fulano}{10}{section.A.2}
-\contentsline {subsection}{\numberline {A.2.1}Observaciones realizadas}{10}{subsection.A.2.1}
-\contentsline {subsection}{\numberline {A.2.2}Correcciones realizadas}{10}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Observaciones del Revisor 02: Fulano 2}{10}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Observaciones realizadas}{10}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Correcciones realizadas}{10}{subsection.A.3.2}
-\contentsline {chapter}{\numberline {B}Varios}{11}{appendix.B}
-\contentsline {section}{\numberline {B.1}Insertar Im\IeC {\'a}genes}{11}{section.B.1}
+\contentsline {section}{\numberline {0.1}Antecedentes del Problema}{1}{section.0.1}
+\contentsline {section}{\numberline {0.2}Planteamiento del Problema}{3}{section.0.2}
+\contentsline {section}{\numberline {0.3}Hip\IeC {\'o}tesis}{3}{section.0.3}
+\contentsline {section}{\numberline {0.4}Objetivos}{3}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Objetivos Generales}{3}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}Objetivos Espec\IeC {\'\i }ficos}{3}{subsection.0.4.2}
+\contentsline {section}{\numberline {0.5}Justificaci\IeC {\'o}n}{3}{section.0.5}
+\contentsline {chapter}{\numberline {1}Marco Teo\GenericError {(inputenc) }{Package inputenc Error: Unicode char ́ (U+301)\MessageBreak not set up for use with LaTeX}{See the inputenc package documentation for explanation.}{Your command was ignored.\MessageBreak Type I <command> <return> to replace it with another command,\MessageBreak or <return> to continue without it.}rico}{5}{chapter.1}
+\contentsline {chapter}{\numberline {2}Trabajo Relacionado}{6}{chapter.2}
+\contentsline {chapter}{\numberline {3}Ejemplo de Citas y Pie de P\IeC {\'a}gina}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Dos ejemplos de citas}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Cita de libros}{7}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Otros dos ejemplos de cita}{8}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Cita de tesis}{8}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}URL cita}{8}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Pie de P\IeC {\'a}gina}{8}{section.3.4}
+\contentsline {chapter}{\numberline {A}Observaciones Resueltas}{10}{appendix.A}
+\contentsline {section}{\numberline {A.1}Observaciones del Asesor: Dr. Juan Carlos L\IeC {\'o}pez Pimentel}{10}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}Observaciones realizadas}{10}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Correcciones realizadas}{10}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Observaciones del Revisor 01: Fulano}{11}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Observaciones realizadas}{11}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Correcciones realizadas}{11}{subsection.A.2.2}
+\contentsline {section}{\numberline {A.3}Observaciones del Revisor 02: Fulano 2}{11}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Observaciones realizadas}{11}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Correcciones realizadas}{11}{subsection.A.3.2}
+\contentsline {chapter}{\numberline {B}Varios}{12}{appendix.B}
+\contentsline {section}{\numberline {B.1}Insertar Im\IeC {\'a}genes}{12}{section.B.1}
