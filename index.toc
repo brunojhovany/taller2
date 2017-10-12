@@ -49,14 +49,14 @@
 \contentsline {chapter}{\numberline {4}impacto}{22}{chapter.4}
 \contentsline {chapter}{\numberline {5}Cronograma de actividades}{24}{chapter.5}
 \contentsline {chapter}{\numberline {A}Observaciones Resueltas}{26}{appendix.A}
-\contentsline {section}{\numberline {A.1}Observaciones del Asesor: Dr. Juan Carlos L\IeC {\'o}pez Pimentel}{26}{section.A.1}
+\contentsline {section}{\numberline {A.1}Observaciones del Asesor: Dr. Jesus Carlos S\IeC {\'a}nchez G\IeC {\'u}zman}{26}{section.A.1}
 \contentsline {subsection}{\numberline {A.1.1}Observaciones realizadas}{26}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Correcciones realizadas}{26}{subsection.A.1.2}
-\contentsline {section}{\numberline {A.2}Observaciones del Revisor 01: Fulano}{27}{section.A.2}
+\contentsline {subsection}{\numberline {A.1.2}Correcciones realizadas}{27}{subsection.A.1.2}
+\contentsline {section}{\numberline {A.2}Observaciones del Revisor 01: Dra. Mar\IeC {\'\i }a Candelaria Guti\IeC {\'e}rrez G\IeC {\'o}mez}{27}{section.A.2}
 \contentsline {subsection}{\numberline {A.2.1}Observaciones realizadas}{27}{subsection.A.2.1}
 \contentsline {subsection}{\numberline {A.2.2}Correcciones realizadas}{27}{subsection.A.2.2}
-\contentsline {section}{\numberline {A.3}Observaciones del Revisor 02: Fulano 2}{27}{section.A.3}
+\contentsline {section}{\numberline {A.3}Observaciones del Revisor 02: M.C.A Imelda Valles L\IeC {\'o}pez}{27}{section.A.3}
 \contentsline {subsection}{\numberline {A.3.1}Observaciones realizadas}{27}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Correcciones realizadas}{27}{subsection.A.3.2}
-\contentsline {chapter}{\numberline {B}Varios}{28}{appendix.B}
-\contentsline {section}{\numberline {B.1}Insertar Im\IeC {\'a}genes}{28}{section.B.1}
+\contentsline {subsection}{\numberline {A.3.2}Correcciones realizadas}{28}{subsection.A.3.2}
+\contentsline {chapter}{\numberline {B}Varios}{29}{appendix.B}
+\contentsline {section}{\numberline {B.1}Insertar Im\IeC {\'a}genes}{29}{section.B.1}
