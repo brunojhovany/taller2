@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.24)  11 OCT 2017 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.25)  12 OCT 2017 01:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **index.tex
 (./index.tex
-LaTeX2e <2017/01/01> patch level 3
+LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./lib/proyMachote.cls
 
@@ -46,7 +46,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -57,7 +57,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -82,7 +82,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
+Package: glossaries 2016/06/09 v4.25 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -102,7 +102,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count90
 )
 \@glsmfirst=\toks17
@@ -118,7 +118,7 @@ Package: xfor 2009/02/05 v1.05 (NLCT)
 Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2016/06/28 v2.15d AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -138,20 +138,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count92
 \leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count94
 \DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen109
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count96
 \c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
@@ -172,8 +172,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
@@ -242,7 +242,7 @@ Package: fp-eval 1995/04/03
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
-Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
+Package: glossaries-compatible-307 2016/06/09 v4.25 (NLCT)
 )
 \gls@level=\count122
 \@gls@tmpb=\toks25
@@ -254,12 +254,12 @@ Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
-Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
+Package: glossary-hypernav 2016/06/09 v4.25 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2017/01/19 v4.29 (NLCT)
+Package: glossary-list 2016/06/09 v4.25 (NLCT)
 \glslistdottedwidth=\skip48
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2017/01/19 v4.29 (NLCT)
+Package: glossary-long 2016/06/09 v4.25 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
@@ -283,7 +283,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \glspagelistwidth=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2017/01/19 v4.29 (NLCT)
+Package: glossary-super 2016/06/09 v4.25 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
@@ -305,7 +305,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@pbox=\box32
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2017/01/19 v4.29 (NLCT)
+Package: glossary-tree 2016/06/09 v4.25 (NLCT)
 \glstreeindent=\skip58
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -459,14 +459,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks32
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -678,8 +678,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -700,14 +698,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -748,7 +744,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -774,10 +770,10 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
@@ -892,7 +888,7 @@ thmetics.code.tex)))
 )
 \psLoopIndex=\count161
 
-`PSTricks' v2.71  <2016/12/23> (tvz)
+`PSTricks' v2.68  <2016/06/09> (tvz)
 \pst@dima=\dimen147
 \pst@dimb=\dimen148
 \pst@dimc=\dimen149
@@ -938,10 +934,10 @@ thmetics.code.tex)))
 \sh@wgridYunit=\dimen170
 \pst@shift=\dimen171
 )
-File: pstricks.tex 2016/12/23 v2.71 `PSTricks' (tvz,hv)
+File: pstricks.tex 2016/06/09 v2.68 `PSTricks' (tvz,hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex)
-File: pst-fp.tex 2016/12/23 v2.71 `PST-fp' (hv)
+File: pst-fp.tex 2016/06/09 v2.68 `PST-fp' (hv)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pst-fill/pst-fill.sty
 Package: pst-fill 2005/09/13 package wrapper for pst-fill.tex (hv)
@@ -959,7 +955,7 @@ Package: pst-node 2012/09/18 v1.01 LaTeX wrapper for `pst-node' (HV)
 Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
- v1.39, 2017/01/20
+ v1.36, 2016/04/24
 \psrow=\count175
 \pscol=\count176
 \psmatrixcnt=\count177
@@ -969,7 +965,7 @@ Package: pst-node 2010/04/22 package wrapper for pst-node.tex
 \num@pts=\count179
 \pst@argcnt=\count180
 )
-File: pst-node.tex 2017/01/20 1.39 `pst-node' (tvz,hv)
+File: pst-node.tex 2016/04/24 1.36 `pst-node' (tvz,hv)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count181
@@ -1067,7 +1063,7 @@ LaTeX Info: Redefining \nameref on input line 37.
 \openout2 = `portada/portada.aux'.
 
  (./portada/portada.tex)
-<lib/figPortada.png, id=120, 221.82875pt x 216.81pt>
+<lib/figPortada.png, id=253, 221.82875pt x 216.81pt>
 File: lib/figPortada.png Graphic file (type png)
  <use lib/figPortada.png>
 Package pdftex.def Info: lib/figPortada.png used on input line 43.
@@ -1118,24 +1114,24 @@ Your command was ignored.
 Type I <command> <return> to replace it with another command,
 or <return> to continue without it.
 
-)
+[1
+
+
+])
 \tf@toc=\write4
 \openout4 = `index.toc'.
 
- [1
-
-
-] (./index.lof)
+ [2] (./index.lof)
 \tf@lof=\write5
 \openout5 = `index.lof'.
 
- [2
+ [3
 
 ] (./index.lot)
 \tf@lot=\write6
 \openout6 = `index.lot'.
 
- [3
+ [4
 
 ] (./chapters/resumen/index.tex)
 (./chapters/introduccion/index.tex [1
@@ -1145,7 +1141,15 @@ or <return> to continue without it.
 <to be read again> 
                    \relax 
 l.13 
-      [2] (./chapters/introduccion/objetivos.tex))
+      [2] (./chapters/introduccion/objetivos.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+))
 (./chapters/marcoTeorico/index.tex [3] [4]
  1.
 
@@ -1163,53 +1167,113 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) (./chapters/trabajoRelacionado/index.tex [5
 
-]
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 3.
+
+[5
+
+] [6] [7] [8] [9] [10] [11]) (./chapters/trabajoRelacionado/index.tex
+[12]
  2.
-) (./chapters/studentsWork/index.tex [6
+[13
 
-]
+] [14]
+Overfull \hbox (120.65004pt too wide) in paragraph at lines 71--72
+\T1/cmr/m/n/12 tando físi-ca-mente en el con-sul-to-rio, o en una ubi-cación re
+-mota(https://expedienteclinico.mx/Portal/Configuraciones,
+ []
+
+[15]
+Overfull \hbox (121.10686pt too wide) in paragraph at lines 86--87
+\T1/cmr/m/n/12 grupo a través de la plataforma de ad-min-is-tración para gru-po
+s(https://expedienteclinico.mx/Portal/Configuraciones,
+ []
+
+
+Overfull \hbox (99.37459pt too wide) in paragraph at lines 100--101
+\T1/cmr/m/n/12 nas de in-terés de cien-cias de la salud, pre-supuestos, es-tadí
+s-ti-cas, etc.(http://www.elex.com.mx:9080/elex2.0,S.F). 
+ []
+
+[16]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 103.
+
+[17]
+Overfull \hbox (21.81303pt too wide) in paragraph at lines 153--157
+\T1/cmr/m/n/12 con-tinuo siem-pre a la van-guardia http://www.grupomedycamx.com
+/medyca/medyca/index.html
+ []
+
+
+Overfull \hbox (27.62137pt too wide) in paragraph at lines 153--157
+\T1/cmr/m/n/12 acuerdo a la nor-ma-tivi-dad vi-gente http://www.grupomedycamx.c
+om/medyca/medyca/index.html
+ []
+
+[18]) (./chapters/propuesta/index.tex [19]
  3.
-[7
+[20
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)) (./index.bbl
-[8]
-./index.bbl:17: Misplaced alignment tab character &.
-l.17 ...indows Exposed: Windows Security Secrets &
-                                                   Solutions}.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+./chapters/propuesta/index.tex:19: You can't use `macro parameter character #' 
+in horizontal mode.
+l.19 ...trario, es muy similar a Javascript y a C#
+                                                   gracias a que su creador ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-) (./chapters/observacionesRes/index.tex [9
+) (./chapters/impacto/index.tex [21]
+ 4.
+) (./chapters/cronograma/index.tex [22
+
+] [23]
+ 5.
+) (./index.bbl [24
+
+]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+) (./chapters/observacionesRes/index.tex [25
 
 ]
 Ap\'endice A.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
-)
-(./chapters/generales/index.tex [10
+[26
 
-] [11]
-Ap\'endice B.
+]
 
-Overfull \hbox (16.72844pt too wide) in paragraph at lines 4--5
-\T1/cmr/m/n/12 Para in-ser-tar imá-genes puedes ver la página []$\T1/cmtt/m/n/1
-2 https : / / www . sharelatex . com / learn / Inserting _
+LaTeX Warning: Reference `subsec:objetivos especificos' on page 27 undefined on
+ input line 18.
+
+
+LaTeX Warning: Reference `sec:justificacion' on page 27 undefined on input line
+ 19.
+
+
+LaTeX Warning: Reference `subsec:objetivos especificos' on page 27 undefined on
+ input line 33.
+
+
+Overfull \hbox (17.84319pt too wide) in paragraph at lines 38--38
+[]\T1/cmr/bx/n/17.28 Observaciones del Re-vi-sor 02: M.C.A Imelda Valles
  []
 
+[27]
+
+LaTeX Warning: Reference `sec:propuesta' on page 28 undefined on input line 49.
+
+
+) (./chapters/generales/index.tex [28]
+Ap\'endice B.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 
 ./chapters/generales/index.tex:10: LaTeX Error: File `formatoGral/chapters/gene
 rales/images/ittgLogo' not found.
@@ -1226,41 +1290,60 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
- [12
+
+./index.tex:94: LaTeX Error: \begin{itemize} on input line 17 ended by \end{doc
+ument}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+[29
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./index.aux (./portada/portada.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 1824E67709E118073094F0ECBDAD9918;1971.
- ) 
+(rerunfilecheck)             Checksum: 279032F79FF22FB428C2A36F2863066C;4671.
+
+
+LaTeX Warning: There were undefined references.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 17 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 19611 strings out of 493013
- 311193 string characters out of 6135682
- 476799 words of memory out of 5000000
- 22706 multiletter control sequences out of 15000+600000
- 19882 words of font info for 49 fonts, out of 8000000 for 9000
+ 19649 strings out of 493013
+ 311822 string characters out of 6135682
+ 476329 words of memory out of 5000000
+ 22698 multiletter control sequences out of 15000+600000
+ 16900 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,8n,42p,1939b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sftt1200.pfb>
-Output written on index.pdf (16 pages, 365154 bytes).
+ 46i,6n,42p,1939b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
+1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
+200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on index.pdf (34 pages, 311124 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 488 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 
