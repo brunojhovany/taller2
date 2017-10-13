@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{typeScript}
+DevCode Blog.
+\newblock Las 10 razones principales para usar mysql como base de datos
+  integrada.
+\newblock
+  \url{https://www.mysql.com/why-mysql/white-papers/las-10-razones-principales-para-usar-mysql-como-base-de-datos-integrada/},
+  2017.
+\newblock [May 18].
+
+\bibitem{Gracia}
+Gracia Daniela.
+\newblock {\em The Definition of “Meaningful Use”. HIPAA.}
+\newblock PhD thesis, Journal of Healthcare Compliance., Ago 6 2014.
+
+\bibitem{marco1}
+Secretaría de~Salud.
+\newblock {\em Manual del Expediente Clínico Electrónico.}
+\newblock Dirección General de Información en Salud., Mexico, 2009.
+
+\bibitem{SEGOB}
+Secretaría de~Salud Subsecretaría de Integración y Desarrollo del Sector
+  Salud Dirección General de Información~en Salud.
+\newblock {\em Manual del Expediente Clínico Electrónico.}
+\newblock PhD thesis, 2011.
+
+\bibitem{elex}
+Elex.
+\newblock {\em Elex Expediente Clínico Electronico}.
+\newblock PhD thesis, Ene 2010.
+
+\bibitem{Villareal}
+Villareal G.
+\newblock {\em Expediente Clínico Electronico.}
+\newblock PhD thesis, Jun 2007.
+
+\bibitem{marco2}
+R.~Martínez~Campos. H.~Vázquez~Leal.
+\newblock {\em Manual del Expediente Clínico Electrónico.}
+\newblock Dirección General de Información en Salud., Mexico, Jun 28 2011.
+
+\bibitem{ISSTE}
+ISSTE.
+\newblock {\em Experiencias en la Implementación y Despliegue del Expediente
+  Clínico Electrónico-ISSSTEMed}.
+\newblock PhD thesis, 2011.
+
+\bibitem{marco3}
+Gutiérrez Javier.
+\newblock Expedientes.
+\newblock \url{
+  http://www.lsi.us.es/~javierj/investigacion_ficheros/Framework.pdf}, 2012.
+\newblock [Dic 8].
+
+\bibitem{mediesel}
+Medisel.
+\newblock Medicay expediente clinico electronico.
+\newblock 28(4), 2011.
+
+\bibitem{Bulma}
+Alarcón-Gómez M.G. y R. Lozano-Ascencio Merino-Juárez, M.F.
+\newblock Css. [online] available.
+\newblock \url{https://developer.mozilla.org/es/docs/Web/CSS}, 2017.
+\newblock [Abr].
+
+\bibitem{mysql}
+MySQL.
+\newblock ¿qué es typescript?.
+\newblock \url{https://devcode.la/blog/que-es-typescript/}, 2017.
+\newblock [May 6].
+
+\bibitem{Angular}
+Mozilla~Developer Network.
+\newblock Habased health accounts in 13 oecd countries: Country study. mexico.
+  ocde physician micro systems, inc. the mozilla developer network.
+\newblock \url{https://developer.mozilla.org/en-US/docs/Web/HTML}, 2017.
+\newblock [Abr 5].
+
+\bibitem{esquemas}
+S.A.
+\newblock {\em Expediente Clínico Electronico.}
+\newblock PhD thesis, Mar 2013.
+
+\end{thebibliography}
