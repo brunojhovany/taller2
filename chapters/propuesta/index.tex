@@ -19,9 +19,50 @@ La implementación de un expediente clínico en el estado de Chiapas representar
 \subsection{Impácto Tecnológico}
 El impácto Tecnológico principal del proyecto será que se desarrolle a las necesidades de la secretaria de salud del estado de Chiapas, siendo una de estas que funcione de manera online y offline, además que pueda contar con una gran escalabilidad ya que es pensado para manejar grandes cantidades de información, datos estadísticos y por supuesto con la mayor seguridad posible.  Con ello se pretende eliminar en su mayoría la duplicidad de los datos o la perdida da de los mismos. Además, se ayudará a aplicar acciones preventivas en la población. Se tendrá un acceso más rápido a la información para la ayuda de investigaciones y desarrollo de la salud en el estado.
 
-\section{Método a desarrollar}
-    \subsection{}
-      \subsection{}
+\section{Metodología en cascada}
+    \subsection{Descripción de la metodología}
+      Es el enfoque metodológico que ordena rigurosamente las etapas del ciclo de vida
+      del software, de tal forma que el inicio de cada etapa debe esperar a la finalización
+      de la inmediatamente anterior (Figura \ref{metodologia})
+
+      \begin{figure}[h]
+        \centering
+        \includegraphics[scale=.3]{lib/assets/diagramaMetodologia}
+        \caption{Diagrama de la metodología.}
+        \label{metodologia}
+      \end{figure}
+
+
+De esta forma, cualquier error de diseño detectado en la etapa de prueba conduce
+necesariamente al rediseño y nueva programación del código afectado, aumentando
+los costos del desarrollo.
+
+
+  \subsection{Justificación de metodología}
+
+  La decisión por el cual se eligió esta metodología fue por la menera en la que se está trabajando con los contribuyentes exteriores, de parte de Secretaria de Salud recibimos la parte de analizis y requerimientos del sistema, por nuestra parte trabajaremos lo que es la interoperabilidad de los Sistemas de expediente Clínico.
+        \subsection{Pasos de la metodología}
+            \subsubsection{Ingeniería y Análisis del Sistema}
+            Debido a que el software es siempre parte de un sistema mayor el trabajo comienza estableciendo los requisitos de todos los elementos del sistema y luego asignando algún subconjunto de estos requisitos al software.
+            \subsubsection{Análisis de los requisitos del software}
+            El proceso de recopilación de los requisitos se centra e intensifica especialmente en el software. El ingeniero de software (Analistas) debe comprender el ámbito de la información del software, así como la función, el rendimiento y las interfaces requeridas.
+            \subsubsection{Diseño}
+            El diseño del software se enfoca en cuatro atributos distintos del programa: la estructura de los datos, la arquitectura del software, el detalle procedimental y la caracterización de la interfaz. El proceso de diseño traduce los requisitos en una representación del software con la calidad requerida antes de que comience la codificación.
+            \subsubsection{Codificación}
+            El diseño debe traducirse en una forma legible para la maquina. El paso de codificación realiza esta tarea. Si el diseño se realiza de una manera detallada la codificación puede realizarse mecánicamente.
+            \subsubsection{Pruebas}
+            Una vez que se ha generado el código comienza la prueba del programa. La prueba se centra en la lógica interna del software, y en las funciones externas, realizando
+            \subsubsection{Mantenimiento}
+            E software sufrirá cambios después de que se entrega al cliente. Los cambios ocurrirán debido a que hayan encontrado errores, a que el software deba adaptarse a cambios del entorno externo (sistema operativo o dispositivos periféricos), o debido a que el cliente requiera ampliaciones funcionales o del rendimiento.
+
+    \subsection{Pasos de la metodología aplicada en el proyecto}
+          \subsubsection{Ingeniería y Análisis del Sistema}
+          \subsubsection{Análisis de los requisitos del software}
+          \subsubsection{Diseño}
+          \subsubsection{Codificación}
+          \subsubsection{Pruebas}
+          \subsubsection{Mantenimiento}
+
 
 \section{Angular }
 Angular es un Framework desarrollado por los ingenieros de Google, el cual está basado en programación por componentes, los cuales son muy útiles ya que ayudan a reducir grandes cantidades de código reutilizando los componentes en todo el proyecto, pudiendo así tener un mejor control de proyectos de gran escalabilidad. El desarrollo de este sistema tendrá un gran reto que será justamente el control y seguridad de los datos de los pacientes, por ello se decidió utilizar Angular, el cual es un framework muy maduro y con una enorme comunidad que contribuye a su desarrollo. Cuenta con una documentación muy vasta, facilitando así un mejor y óptimo desarrollo, ahorrando tiempo, esfuerzo y además es fácil su despliegue en los servidores. \cite{Angular}

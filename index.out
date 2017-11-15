@@ -46,27 +46,47 @@
 \BOOKMARK [1][-]{section.4.2}{Imp\341cto}{chapter.4}% 46
 \BOOKMARK [2][-]{subsection.4.2.1}{Imp\341cto Social}{section.4.2}% 47
 \BOOKMARK [2][-]{subsection.4.2.2}{Imp\341cto Tecnol\363gico}{section.4.2}% 48
-\BOOKMARK [1][-]{section.4.3}{M\351todo a desarrollar}{chapter.4}% 49
-\BOOKMARK [2][-]{subsection.4.3.1}{}{section.4.3}% 50
-\BOOKMARK [2][-]{subsection.4.3.2}{}{section.4.3}% 51
-\BOOKMARK [1][-]{section.4.4}{Angular }{chapter.4}% 52
-\BOOKMARK [1][-]{section.4.5}{Bulma}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.6}{ Mysql}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.7}{Typescript}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.7.1}{\277Qu\351 es un superset?}{section.4.7}% 56
-\BOOKMARK [0][-]{chapter.5}{Desarrollo y Resultados Preliminares del m\351todo propuesto}{}% 57
-\BOOKMARK [1][-]{section.5.1}{Desarrollo Preliminar}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.2}{Resultados Preliminares}{chapter.5}% 59
-\BOOKMARK [0][-]{chapter.6}{Concluciones}{}% 60
-\BOOKMARK [0][-]{appendix.A}{Observaciones Resueltas}{}% 61
-\BOOKMARK [1][-]{section.A.1}{Observaciones del Asesor: Dr. Jesus Carlos S\341nchez G\372zman}{appendix.A}% 62
-\BOOKMARK [2][-]{subsection.A.1.1}{Observaciones realizadas}{section.A.1}% 63
-\BOOKMARK [2][-]{subsection.A.1.2}{Correcciones realizadas}{section.A.1}% 64
-\BOOKMARK [1][-]{section.A.2}{Observaciones del Revisor 01: Dra. Mar\355a Candelaria Guti\351rrez G\363mez}{appendix.A}% 65
-\BOOKMARK [2][-]{subsection.A.2.1}{Observaciones realizadas}{section.A.2}% 66
-\BOOKMARK [2][-]{subsection.A.2.2}{Correcciones realizadas}{section.A.2}% 67
-\BOOKMARK [1][-]{section.A.3}{Observaciones del Revisor 02: M.C.A Imelda Valles L\363pez}{appendix.A}% 68
-\BOOKMARK [2][-]{subsection.A.3.1}{Observaciones realizadas}{section.A.3}% 69
-\BOOKMARK [2][-]{subsection.A.3.2}{Correcciones realizadas}{section.A.3}% 70
-\BOOKMARK [0][-]{appendix.B}{Varios}{}% 71
-\BOOKMARK [1][-]{section.B.1}{Insertar Im\341genes}{appendix.B}% 72
+\BOOKMARK [1][-]{section.4.3}{Metodolog\355a en cascada}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.3.1}{Descripci\363n de la metodolog\355a}{section.4.3}% 50
+\BOOKMARK [2][-]{subsection.4.3.2}{Justificaci\363n de metodolog\355a}{section.4.3}% 51
+\BOOKMARK [2][-]{subsection.4.3.3}{Pasos de la metodolog\355a}{section.4.3}% 52
+\BOOKMARK [3][-]{subsubsection.4.3.3.1}{Ingenier\355a y An\341lisis del Sistema}{subsection.4.3.3}% 53
+\BOOKMARK [3][-]{subsubsection.4.3.3.2}{An\341lisis de los requisitos del software}{subsection.4.3.3}% 54
+\BOOKMARK [3][-]{subsubsection.4.3.3.3}{Dise\361o}{subsection.4.3.3}% 55
+\BOOKMARK [3][-]{subsubsection.4.3.3.4}{Codificaci\363n}{subsection.4.3.3}% 56
+\BOOKMARK [3][-]{subsubsection.4.3.3.5}{Pruebas}{subsection.4.3.3}% 57
+\BOOKMARK [3][-]{subsubsection.4.3.3.6}{Mantenimiento}{subsection.4.3.3}% 58
+\BOOKMARK [2][-]{subsection.4.3.4}{Pasos de la metodolog\355a aplicada en el proyecto}{section.4.3}% 59
+\BOOKMARK [3][-]{subsubsection.4.3.4.1}{Ingenier\355a y An\341lisis del Sistema}{subsection.4.3.4}% 60
+\BOOKMARK [3][-]{subsubsection.4.3.4.2}{An\341lisis de los requisitos del software}{subsection.4.3.4}% 61
+\BOOKMARK [3][-]{subsubsection.4.3.4.3}{Dise\361o}{subsection.4.3.4}% 62
+\BOOKMARK [3][-]{subsubsection.4.3.4.4}{Codificaci\363n}{subsection.4.3.4}% 63
+\BOOKMARK [3][-]{subsubsection.4.3.4.5}{Pruebas}{subsection.4.3.4}% 64
+\BOOKMARK [3][-]{subsubsection.4.3.4.6}{Mantenimiento}{subsection.4.3.4}% 65
+\BOOKMARK [1][-]{section.4.4}{Angular }{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.5}{Bulma}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.6}{ Mysql}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.7}{Typescript}{chapter.4}% 69
+\BOOKMARK [2][-]{subsection.4.7.1}{\277Qu\351 es un superset?}{section.4.7}% 70
+\BOOKMARK [0][-]{chapter.5}{Desarrollo y Resultados Preliminares del m\351todo propuesto}{}% 71
+\BOOKMARK [1][-]{section.5.1}{Desarrollo Preliminar}{chapter.5}% 72
+\BOOKMARK [1][-]{section.5.2}{Resultados Preliminares}{chapter.5}% 73
+\BOOKMARK [0][-]{chapter.6}{Concluciones}{}% 74
+\BOOKMARK [0][-]{chapter.7}{Trabajo Futuro}{}% 75
+\BOOKMARK [1][-]{section.7.1}{Resultados entregables}{chapter.7}% 76
+\BOOKMARK [1][-]{section.7.2}{Cronograma de actividades}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.2.1}{Taller 1}{section.7.2}% 78
+\BOOKMARK [2][-]{subsection.7.2.2}{Taller 2}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.3}{Residencia}{section.7.2}% 80
+\BOOKMARK [0][-]{appendix.A}{Observaciones Resueltas}{}% 81
+\BOOKMARK [1][-]{section.A.1}{Observaciones del Asesor: Dr. Jesus Carlos S\341nchez G\372zman}{appendix.A}% 82
+\BOOKMARK [2][-]{subsection.A.1.1}{Observaciones realizadas}{section.A.1}% 83
+\BOOKMARK [2][-]{subsection.A.1.2}{Correcciones realizadas}{section.A.1}% 84
+\BOOKMARK [1][-]{section.A.2}{Observaciones del Revisor 01: Dra. Mar\355a Candelaria Guti\351rrez G\363mez}{appendix.A}% 85
+\BOOKMARK [2][-]{subsection.A.2.1}{Observaciones realizadas}{section.A.2}% 86
+\BOOKMARK [2][-]{subsection.A.2.2}{Correcciones realizadas}{section.A.2}% 87
+\BOOKMARK [1][-]{section.A.3}{Observaciones del Revisor 02: M.C.A Imelda Valles L\363pez}{appendix.A}% 88
+\BOOKMARK [2][-]{subsection.A.3.1}{Observaciones realizadas}{section.A.3}% 89
+\BOOKMARK [2][-]{subsection.A.3.2}{Correcciones realizadas}{section.A.3}% 90
+\BOOKMARK [0][-]{appendix.B}{Varios}{}% 91
+\BOOKMARK [1][-]{section.B.1}{Insertar Im\341genes}{appendix.B}% 92

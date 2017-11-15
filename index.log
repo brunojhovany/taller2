@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.25)  20 OCT 2017 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.25)  31 OCT 2017 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1063,7 +1063,7 @@ LaTeX Info: Redefining \nameref on input line 37.
 \openout2 = `portada/portada.aux'.
 
  (./portada/portada.tex)
-<lib/figPortada.png, id=293, 221.82875pt x 216.81pt>
+<lib/figPortada.png, id=373, 221.82875pt x 216.81pt>
 File: lib/figPortada.png Graphic file (type png)
  <use lib/figPortada.png>
 Package pdftex.def Info: lib/figPortada.png used on input line 43.
@@ -1117,24 +1117,23 @@ or <return> to continue without it.
 [1
 
 
-])
+] [2])
 \tf@toc=\write4
 \openout4 = `index.toc'.
 
- [2] (./index.lof)
+ [3] (./index.lof)
 \tf@lof=\write5
 \openout5 = `index.lof'.
 
- [3
+ [4
 
 ] (./index.lot)
 \tf@lot=\write6
 \openout6 = `index.lot'.
 
- [4
+ [5
 
-] (./chapters/resumen/index.tex)
-(./chapters/introduccion/index.tex [1
+] (./chapters/resumen/index.tex) (./chapters/introduccion/index.tex [1
 
 ]
  1.
@@ -1145,15 +1144,15 @@ been already used, duplicate ignored
 l.8 
      [2
 
-] [3] (./chapters/introduccion/objetivos.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+] [3] (./chapters/introduccion/objetivos.tex [4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
- [4]))
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+))
 (./chapters/marcoTeorico/index.tex [5]
  2.
 
@@ -1173,14 +1172,14 @@ or  <return>  to continue without it.
 
 [6
 
-] [7] [8] [9] [10] <lib/assets/8.png, id=496, 562.1pt x 435.6275pt>
+] [7] [8] [9] [10] <lib/assets/8.png, id=608, 562.1pt x 435.6275pt>
 File: lib/assets/8.png Graphic file (type png)
 
 <use lib/assets/8.png>
 Package pdftex.def Info: lib/assets/8.png used on input line 74.
 (pdftex.def)             Requested size: 196.73795pt x 152.47191pt.
  [11]
-<lib/assets/9.png, id=504, 404.51125pt x 254.9525pt>
+<lib/assets/9.png, id=616, 404.51125pt x 254.9525pt>
 File: lib/assets/9.png Graphic file (type png)
  <use lib/assets/9.png>
 Package pdftex.def Info: lib/assets/9.png used on input line 85.
@@ -1189,13 +1188,13 @@ Package pdftex.def Info: lib/assets/9.png used on input line 85.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/10.png, id=507, 306.14375pt x 216.81pt>
+<lib/assets/10.png, id=619, 306.14375pt x 216.81pt>
 File: lib/assets/10.png Graphic file (type png)
  <use lib/assets/10.png>
 Package pdftex.def Info: lib/assets/10.png used on input line 94.
 (pdftex.def)             Requested size: 107.1519pt x 75.88463pt.
 
-[12 <./lib/assets/8.png>] <lib/assets/11.png, id=515, 157.3515pt x 119.2455pt>
+[12 <./lib/assets/8.png>] <lib/assets/11.png, id=627, 157.3515pt x 119.2455pt>
 File: lib/assets/11.png Graphic file (type png)
 
 <use lib/assets/11.png>
@@ -1205,7 +1204,7 @@ Package pdftex.def Info: lib/assets/11.png used on input line 106.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/12.png, id=518, 157.68pt x 115.632pt>
+<lib/assets/12.png, id=630, 157.68pt x 115.632pt>
 File: lib/assets/12.png Graphic file (type png)
  <use lib/assets/12.png>
 Package pdftex.def Info: lib/assets/12.png used on input line 118.
@@ -1216,26 +1215,26 @@ Package pdftex.def Info: lib/assets/12.png used on input line 118.
  3.
 [15
 
-] <lib/assets/1.png, id=543, 223.58531pt x 282.30469pt>
+] <lib/assets/1.png, id=656, 223.58531pt x 282.30469pt>
 File: lib/assets/1.png Graphic file (type png)
 
 <use lib/assets/1.png>
 Package pdftex.def Info: lib/assets/1.png used on input line 26.
 (pdftex.def)             Requested size: 78.25601pt x 98.8081pt.
  [16 <./lib/assets/1.png>]
-<lib/assets/2.png, id=553, 163.9215pt x 91.323pt>
+<lib/assets/2.png, id=666, 163.9215pt x 91.323pt>
 File: lib/assets/2.png Graphic file (type png)
  <use lib/assets/2.png>
 Package pdftex.def Info: lib/assets/2.png used on input line 59.
 (pdftex.def)             Requested size: 163.92108pt x 91.32275pt.
 
-[17 <./lib/assets/2.png>] <lib/assets/3.png, id=563, 803.0pt x 451.6875pt>
+[17 <./lib/assets/2.png>] <lib/assets/3.png, id=676, 803.0pt x 451.6875pt>
 File: lib/assets/3.png Graphic file (type png)
 
 <use lib/assets/3.png>
 Package pdftex.def Info: lib/assets/3.png used on input line 78.
 (pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
- <lib/assets/4.png, id=566, 803.0pt x 451.6875pt>
+ <lib/assets/4.png, id=679, 803.0pt x 451.6875pt>
 File: lib/assets/4.png Graphic file (type png)
 
 <use lib/assets/4.png>
@@ -1245,20 +1244,20 @@ Package pdftex.def Info: lib/assets/4.png used on input line 91.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./lib/assets/3.png>] <lib/assets/5.png, id=575, 803.0pt x 451.6875pt>
+[18 <./lib/assets/3.png>] <lib/assets/5.png, id=688, 803.0pt x 451.6875pt>
 File: lib/assets/5.png Graphic file (type png)
 
 <use lib/assets/5.png>
 Package pdftex.def Info: lib/assets/5.png used on input line 103.
 (pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
- <lib/assets/6.png, id=578, 803.0pt x 451.6875pt>
+ <lib/assets/6.png, id=691, 803.0pt x 451.6875pt>
 File: lib/assets/6.png Graphic file (type png)
 
 <use lib/assets/6.png>
 Package pdftex.def Info: lib/assets/6.png used on input line 114.
 (pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
  [19 <./lib/assets/4.png> <./lib/assets/5.png>] [20 <./lib/assets/6.png>] [21] 
-<lib/assets/7.png, id=606, 200.75pt x 130.4875pt>
+<lib/assets/7.png, id=718, 200.75pt x 130.4875pt>
 File: lib/assets/7.png Graphic file (type png)
 
 <use lib/assets/7.png>
@@ -1266,7 +1265,7 @@ Package pdftex.def Info: lib/assets/7.png used on input line 187.
 (pdftex.def)             Requested size: 200.7495pt x 130.48717pt.
 ) (./chapters/propuesta/index.tex [22] [23 <./lib/assets/7.png>]
  4.
-<lib/assets/propuesta-tecnica.png, id=617, 706.13812pt x 432.11438pt>
+<lib/assets/propuesta-tecnica.png, id=729, 706.13812pt x 432.11438pt>
 File: lib/assets/propuesta-tecnica.png Graphic file (type png)
 
 <use lib/assets/propuesta-tecnica.png>
@@ -1275,40 +1274,117 @@ Package pdftex.def Info: lib/assets/propuesta-tecnica.png used on input line 8.
 (pdftex.def)             Requested size: 353.06819pt x 216.05666pt.
  [24
 
- <./lib/assets/propuesta-tecnica.png>] [25] [26]
-./chapters/propuesta/index.tex:41: You can't use `macro parameter character #' 
+ <./lib/assets/propuesta-tecnica.png>] [25] <lib/assets/diagramaMetodologia.jpg
+, id=742, 1215.54124pt x 572.1375pt>
+File: lib/assets/diagramaMetodologia.jpg Graphic file (type jpg)
+
+<use lib/assets/diagramaMetodologia.jpg>
+Package pdftex.def Info: lib/assets/diagramaMetodologia.jpg used on input line 
+30.
+(pdftex.def)             Requested size: 364.66519pt x 171.64256pt.
+ [26 <./lib/assets/diagramaMetodologia.jpg>] [27] [28]
+./chapters/propuesta/index.tex:82: You can't use `macro parameter character #' 
 in horizontal mode.
-l.41 ...trario, es muy similar a Javascript y a C#
+l.82 ...trario, es muy similar a Javascript y a C#
                                                    gracias a que su creador ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-) (./chapters/impacto/index.tex) (./chapters/DesarrolloyResultados/index.tex
-[27]
+) (./chapters/DesarrolloyResultados/index.tex [29]
  5.
-) (./chapters/Concluciones/index.tex [28
+) (./chapters/Concluciones/index.tex [30
 
 ]
  6.
-) (./index.bbl) (./chapters/observacionesRes/index.tex [29
+) (./chapters/TrabajoFuturo/index.tex [31
 
 ]
+ 7.
+<lib/assets/cronograma-1.png, id=772, 709.14937pt x 473.51906pt>
+File: lib/assets/cronograma-1.png Graphic file (type png)
+
+<use lib/assets/cronograma-1.png>
+Package pdftex.def Info: lib/assets/cronograma-1.png used on input line 10.
+(pdftex.def)             Requested size: 496.40118pt x 331.46106pt.
+
+Overfull \hbox (26.40118pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<lib/assets/cronogramataller2.png, id=773, 947.03813pt x 373.395pt>
+File: lib/assets/cronogramataller2.png Graphic file (type png)
+
+<use lib/assets/cronogramataller2.png>
+Package pdftex.def Info: lib/assets/cronogramataller2.png used on input line 18
+.
+(pdftex.def)             Requested size: 662.92216pt x 261.37471pt.
+
+Overfull \hbox (192.92216pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<lib/assets/cronograma-8-9-2.png, id=774, 727.96968pt x 379.4175pt>
+File: lib/assets/cronograma-8-9-2.png Graphic file (type png)
+
+<use lib/assets/cronograma-8-9-2.png>
+Package pdftex.def Info: lib/assets/cronograma-8-9-2.png used on input line 27.
+
+(pdftex.def)             Requested size: 509.5753pt x 265.59042pt.
+
+Overfull \hbox (39.5753pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./index.bbl [32
+
+] [33 <./lib/assets/cronograma-1.png>] [34 <./lib/assets/cronogramataller2.png>
+ <./lib/assets/cronograma-8-9-2.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 4981) in paragraph at lines 4--11
+[]\T1/cmr/m/n/12 DevCode Blog.  Las 10 ra-zones prin-ci-pales para usar mysql c
+omo base
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--11
+\T1/cmr/m/n/12 de datos in-tegrada.  []$\T1/cmtt/m/n/12 https : / / www . mysql
+ . com / why-[]mysql / white-[]papers /
+ []
+
+
+Overfull \hbox (7.40276pt too wide) in paragraph at lines 4--11
+\T1/cmtt/m/n/12 las-[]10-[]razones-[]principales-[]para-[]usar-[]mysql-[]como-[
+]base-[]de-[]datos-[]integrada/$[]\T1/cmr/m/n/12 ,
+ []
+
+[35
+
+]) (./chapters/observacionesRes/index.tex [36]
 Ap\'endice A.
-[30
+[37
 
 ]
 Overfull \hbox (17.84319pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/17.28 Observaciones del Re-vi-sor 02: M.C.A Imelda Valles
  []
 
-[31]) (./chapters/generales/index.tex [32]
+[38]) (./chapters/generales/index.tex [39]
 Ap\'endice B.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 4.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 
 ./chapters/generales/index.tex:10: LaTeX Error: File `formatoGral/chapters/gene
 rales/images/ittgLogo' not found.
@@ -1326,101 +1402,56 @@ If that doesn't work, type  X <return>  to quit.
 
 )
 
-./index.tex:95: LaTeX Error: \begin{itemize} on input line 17 ended by \end{doc
+./index.tex:96: LaTeX Error: \begin{itemize} on input line 17 ended by \end{doc
 ument}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \end{document}
+l.96 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-[33
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+[40
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (./index.aux (./portada/portada.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: FB66C8DC78108735E0BCD439372088CA;5285.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 805520A75149DDCEFA2BC0870E662A34;6937.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 17 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19795 strings out of 493013
- 313923 string characters out of 6135682
- 477524 words of memory out of 5000000
- 22787 multiletter control sequences out of 15000+600000
- 16900 words of font info for 43 fonts, out of 8000000 for 9000
+ 19899 strings out of 493013
+ 315987 string characters out of 6135682
+ 477590 words of memory out of 5000000
+ 22853 multiletter control sequences out of 15000+600000
+ 17584 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,8n,42p,1939b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.mediesel} has been referenced 
-but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.elex} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.esquemas} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Villareal} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.ISSTE} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.mysql} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Bulma} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.typeScript} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Angular} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.marco3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.marco2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.marco1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.SEGOB} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Gracia} has been referenced but does not exist
-, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sftt1200.pfb>
-Output written on index.pdf (38 pages, 875378 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx
+1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
+200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sftt1200.pfb>
+Output written on index.pdf (46 pages, 1148391 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
- 142 named destinations out of 1000 (max. 500000)
- 647 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 914 PDF objects out of 1000 (max. 8388607)
+ 812 compressed objects within 9 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 827 words of extra memory for PDF output out of 10000 (max. 10000000)
 
