@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.25)  31 OCT 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.25)  15 NOV 2017 10:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,7 +1108,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 ...to continue without it.}rico}{6}{chapter.2}
+l.9 ...to continue without it.}rico}{7}{chapter.2}
                                                   
 Your command was ignored.
 Type I <command> <return> to replace it with another command,
@@ -1153,10 +1153,12 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 ))
-(./chapters/marcoTeorico/index.tex [5]
+(./chapters/marcoTeorico/index.tex [5] [6
+
+]
  2.
 
-./chapters/marcoTeorico/index.tex:1: Package inputenc Error: Unicode char ́ (U
+./chapters/marcoTeorico/index.tex:4: Package inputenc Error: Unicode char ́ (U
 +301)
 (inputenc)                not set up for use with LaTeX.
 
@@ -1164,191 +1166,201 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 \chapter{Marco Teórico}
+l.4 \chapter{Marco Teórico}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6
+[7
 
-] [7] [8] [9] [10] <lib/assets/8.png, id=608, 562.1pt x 435.6275pt>
+] [8] [9] [10] [11] <lib/assets/8.png, id=613, 562.1pt x 435.6275pt>
 File: lib/assets/8.png Graphic file (type png)
 
 <use lib/assets/8.png>
-Package pdftex.def Info: lib/assets/8.png used on input line 74.
+Package pdftex.def Info: lib/assets/8.png used on input line 77.
 (pdftex.def)             Requested size: 196.73795pt x 152.47191pt.
- [11]
-<lib/assets/9.png, id=616, 404.51125pt x 254.9525pt>
+ [12]
+<lib/assets/9.png, id=621, 404.51125pt x 254.9525pt>
 File: lib/assets/9.png Graphic file (type png)
  <use lib/assets/9.png>
-Package pdftex.def Info: lib/assets/9.png used on input line 85.
+Package pdftex.def Info: lib/assets/9.png used on input line 88.
 (pdftex.def)             Requested size: 283.15593pt x 178.46552pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/10.png, id=619, 306.14375pt x 216.81pt>
+<lib/assets/10.png, id=624, 306.14375pt x 216.81pt>
 File: lib/assets/10.png Graphic file (type png)
  <use lib/assets/10.png>
-Package pdftex.def Info: lib/assets/10.png used on input line 94.
+Package pdftex.def Info: lib/assets/10.png used on input line 97.
 (pdftex.def)             Requested size: 107.1519pt x 75.88463pt.
 
-[12 <./lib/assets/8.png>] <lib/assets/11.png, id=627, 157.3515pt x 119.2455pt>
+[13 <./lib/assets/8.png>] <lib/assets/11.png, id=633, 157.3515pt x 119.2455pt>
 File: lib/assets/11.png Graphic file (type png)
 
 <use lib/assets/11.png>
-Package pdftex.def Info: lib/assets/11.png used on input line 106.
+Package pdftex.def Info: lib/assets/11.png used on input line 109.
 (pdftex.def)             Requested size: 157.3511pt x 119.2452pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/12.png, id=630, 157.68pt x 115.632pt>
+<lib/assets/12.png, id=636, 157.68pt x 115.632pt>
 File: lib/assets/12.png Graphic file (type png)
  <use lib/assets/12.png>
-Package pdftex.def Info: lib/assets/12.png used on input line 118.
+Package pdftex.def Info: lib/assets/12.png used on input line 121.
 (pdftex.def)             Requested size: 157.6796pt x 115.63171pt.
 )
-(./chapters/trabajoRelacionado/index.tex [13 <./lib/assets/9.png> <./lib/assets
-/10.png>] [14 <./lib/assets/11.png> <./lib/assets/12.png>]
- 3.
-[15
+(./chapters/trabajoRelacionado/index.tex [14 <./lib/assets/9.png> <./lib/assets
+/10.png>] [15 <./lib/assets/11.png> <./lib/assets/12.png>] [16
 
-] <lib/assets/1.png, id=656, 223.58531pt x 282.30469pt>
+]
+ 3.
+[17
+
+] <lib/assets/1.png, id=669, 223.58531pt x 282.30469pt>
 File: lib/assets/1.png Graphic file (type png)
 
 <use lib/assets/1.png>
-Package pdftex.def Info: lib/assets/1.png used on input line 26.
+Package pdftex.def Info: lib/assets/1.png used on input line 37.
 (pdftex.def)             Requested size: 78.25601pt x 98.8081pt.
- [16 <./lib/assets/1.png>]
-<lib/assets/2.png, id=666, 163.9215pt x 91.323pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18] <lib/assets/2.png, id=677, 163.9215pt x 91.323pt>
 File: lib/assets/2.png Graphic file (type png)
  <use lib/assets/2.png>
-Package pdftex.def Info: lib/assets/2.png used on input line 59.
+Package pdftex.def Info: lib/assets/2.png used on input line 70.
 (pdftex.def)             Requested size: 163.92108pt x 91.32275pt.
 
-[17 <./lib/assets/2.png>] <lib/assets/3.png, id=676, 803.0pt x 451.6875pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./lib/assets/1.png>] <lib/assets/3.png, id=689, 803.0pt x 451.6875pt>
 File: lib/assets/3.png Graphic file (type png)
 
 <use lib/assets/3.png>
-Package pdftex.def Info: lib/assets/3.png used on input line 78.
+Package pdftex.def Info: lib/assets/3.png used on input line 89.
 (pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
- <lib/assets/4.png, id=679, 803.0pt x 451.6875pt>
+ [20 <./lib/assets/2.png>]
+<lib/assets/4.png, id=697, 803.0pt x 451.6875pt>
 File: lib/assets/4.png Graphic file (type png)
+ <use lib/assets/4.png>
+Package pdftex.def Info: lib/assets/4.png used on input line 102.
+(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
 
-<use lib/assets/4.png>
-Package pdftex.def Info: lib/assets/4.png used on input line 91.
+[21 <./lib/assets/3.png> <./lib/assets/4.png>]
+<lib/assets/5.png, id=707, 803.0pt x 451.6875pt>
+File: lib/assets/5.png Graphic file (type png)
+ <use lib/assets/5.png>
+Package pdftex.def Info: lib/assets/5.png used on input line 114.
+(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
+
+<lib/assets/6.png, id=710, 803.0pt x 451.6875pt>
+File: lib/assets/6.png Graphic file (type png)
+ <use lib/assets/6.png>
+Package pdftex.def Info: lib/assets/6.png used on input line 125.
 (pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./lib/assets/3.png>] <lib/assets/5.png, id=688, 803.0pt x 451.6875pt>
-File: lib/assets/5.png Graphic file (type png)
-
-<use lib/assets/5.png>
-Package pdftex.def Info: lib/assets/5.png used on input line 103.
-(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
- <lib/assets/6.png, id=691, 803.0pt x 451.6875pt>
-File: lib/assets/6.png Graphic file (type png)
-
-<use lib/assets/6.png>
-Package pdftex.def Info: lib/assets/6.png used on input line 114.
-(pdftex.def)             Requested size: 281.05421pt x 158.09299pt.
- [19 <./lib/assets/4.png> <./lib/assets/5.png>] [20 <./lib/assets/6.png>] [21] 
-<lib/assets/7.png, id=718, 200.75pt x 130.4875pt>
+[22 <./lib/assets/5.png>] [23 <./lib/assets/6.png>] [24]
+<lib/assets/7.png, id=736, 200.75pt x 130.4875pt>
 File: lib/assets/7.png Graphic file (type png)
-
-<use lib/assets/7.png>
-Package pdftex.def Info: lib/assets/7.png used on input line 187.
+ <use lib/assets/7.png>
+Package pdftex.def Info: lib/assets/7.png used on input line 198.
 (pdftex.def)             Requested size: 200.7495pt x 130.48717pt.
-) (./chapters/propuesta/index.tex [22] [23 <./lib/assets/7.png>]
+)
+(./chapters/propuesta/index.tex [25 <./lib/assets/7.png>]
  4.
-<lib/assets/propuesta-tecnica.png, id=729, 706.13812pt x 432.11438pt>
+<lib/assets/propuesta-tecnica.png, id=744, 706.13812pt x 432.11438pt>
 File: lib/assets/propuesta-tecnica.png Graphic file (type png)
 
 <use lib/assets/propuesta-tecnica.png>
 Package pdftex.def Info: lib/assets/propuesta-tecnica.png used on input line 8.
 
 (pdftex.def)             Requested size: 353.06819pt x 216.05666pt.
- [24
+ [26
 
- <./lib/assets/propuesta-tecnica.png>] [25] <lib/assets/diagramaMetodologia.jpg
-, id=742, 1215.54124pt x 572.1375pt>
-File: lib/assets/diagramaMetodologia.jpg Graphic file (type jpg)
-
-<use lib/assets/diagramaMetodologia.jpg>
-Package pdftex.def Info: lib/assets/diagramaMetodologia.jpg used on input line 
-30.
-(pdftex.def)             Requested size: 364.66519pt x 171.64256pt.
- [26 <./lib/assets/diagramaMetodologia.jpg>] [27] [28]
-./chapters/propuesta/index.tex:82: You can't use `macro parameter character #' 
+ <./lib/assets/propuesta-tecnica.png>]
+./chapters/propuesta/index.tex:27: You can't use `macro parameter character #' 
 in horizontal mode.
-l.82 ...trario, es muy similar a Javascript y a C#
+l.27 ...trario, es muy similar a Javascript y a C#
                                                    gracias a que su creador ...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-) (./chapters/DesarrolloyResultados/index.tex [29]
+[27] [28]
+<lib/assets/diagramaMetodologia.jpg, id=763, 1215.54124pt x 572.1375pt>
+File: lib/assets/diagramaMetodologia.jpg Graphic file (type jpg)
+
+<use lib/assets/diagramaMetodologia.jpg>
+Package pdftex.def Info: lib/assets/diagramaMetodologia.jpg used on input line 
+47.
+(pdftex.def)             Requested size: 364.66519pt x 171.64256pt.
+ [29 <./lib/assets/diagramaMetodologia.jpg>] [30]) (./chapters/DesarrolloyResul
+tados/index.tex [31]
  5.
-) (./chapters/Concluciones/index.tex [30
+) (./chapters/Concluciones/index.tex [32
 
 ]
  6.
-) (./chapters/TrabajoFuturo/index.tex [31
+) (./chapters/TrabajoFuturo/index.tex [33
 
 ]
  7.
-<lib/assets/cronograma-1.png, id=772, 709.14937pt x 473.51906pt>
+<lib/assets/cronograma-1.png, id=786, 709.14937pt x 473.51906pt>
 File: lib/assets/cronograma-1.png Graphic file (type png)
 
 <use lib/assets/cronograma-1.png>
-Package pdftex.def Info: lib/assets/cronograma-1.png used on input line 10.
+Package pdftex.def Info: lib/assets/cronograma-1.png used on input line 11.
 (pdftex.def)             Requested size: 496.40118pt x 331.46106pt.
 
-Overfull \hbox (26.40118pt too wide) in paragraph at lines 10--11
+Overfull \hbox (26.40118pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/cronogramataller2.png, id=773, 947.03813pt x 373.395pt>
+<lib/assets/cronogramataller2.png, id=788, 947.03813pt x 373.395pt>
 File: lib/assets/cronogramataller2.png Graphic file (type png)
 
 <use lib/assets/cronogramataller2.png>
-Package pdftex.def Info: lib/assets/cronogramataller2.png used on input line 18
+Package pdftex.def Info: lib/assets/cronogramataller2.png used on input line 20
 .
 (pdftex.def)             Requested size: 662.92216pt x 261.37471pt.
 
-Overfull \hbox (192.92216pt too wide) in paragraph at lines 18--19
+Overfull \hbox (192.92216pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<lib/assets/cronograma-8-9-2.png, id=774, 727.96968pt x 379.4175pt>
+<lib/assets/cronograma-8-9-2.png, id=790, 727.96968pt x 379.4175pt>
 File: lib/assets/cronograma-8-9-2.png Graphic file (type png)
 
 <use lib/assets/cronograma-8-9-2.png>
-Package pdftex.def Info: lib/assets/cronograma-8-9-2.png used on input line 27.
+Package pdftex.def Info: lib/assets/cronograma-8-9-2.png used on input line 30.
 
 (pdftex.def)             Requested size: 509.5753pt x 265.59042pt.
 
-Overfull \hbox (39.5753pt too wide) in paragraph at lines 27--28
+Overfull \hbox (39.5753pt too wide) in paragraph at lines 30--31
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./index.bbl [32
+) (./index.bbl [34
 
-] [33 <./lib/assets/cronograma-1.png>] [34 <./lib/assets/cronogramataller2.png>
+] [35 <./lib/assets/cronograma-1.png>] [36 <./lib/assets/cronogramataller2.png>
  <./lib/assets/cronograma-8-9-2.png>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
 
@@ -1372,18 +1384,18 @@ Overfull \hbox (7.40276pt too wide) in paragraph at lines 4--11
 ]base-[]de-[]datos-[]integrada/$[]\T1/cmr/m/n/12 ,
  []
 
-[35
-
-]) (./chapters/observacionesRes/index.tex [36]
-Ap\'endice A.
 [37
+
+]) (./chapters/observacionesRes/index.tex [38]
+Ap\'endice A.
+[39
 
 ]
 Overfull \hbox (17.84319pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/17.28 Observaciones del Re-vi-sor 02: M.C.A Imelda Valles
  []
 
-[38]) (./chapters/generales/index.tex [39]
+[40]) (./chapters/generales/index.tex [41]
 Ap\'endice B.
 
 ./chapters/generales/index.tex:10: LaTeX Error: File `formatoGral/chapters/gene
@@ -1416,7 +1428,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-[40
+[42
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
@@ -1424,17 +1436,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 805520A75149DDCEFA2BC0870E662A34;6937.
+(rerunfilecheck)             Checksum: 139697738BD221C0A1393A9CEA2FE0B7;6975.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 17 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19899 strings out of 493013
- 315987 string characters out of 6135682
- 477590 words of memory out of 5000000
- 22853 multiletter control sequences out of 15000+600000
+ 19910 strings out of 493013
+ 316154 string characters out of 6135682
+ 477803 words of memory out of 5000000
+ 22859 multiletter control sequences out of 15000+600000
  17584 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,8n,42p,1939b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1448,10 +1460,10 @@ ublic/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1
 200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sftt1200.pfb>
-Output written on index.pdf (46 pages, 1148391 bytes).
+Output written on index.pdf (48 pages, 1170890 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 812 compressed objects within 9 object streams
- 175 named destinations out of 1000 (max. 500000)
+ 932 PDF objects out of 1000 (max. 8388607)
+ 828 compressed objects within 9 object streams
+ 180 named destinations out of 1000 (max. 500000)
  827 words of extra memory for PDF output out of 10000 (max. 10000000)
 
