@@ -1,7 +1,5 @@
-\chapter*{Resumen}
-En este capítulo hablaremos sobre la definición de un expediente clínico electrónico, las normas que normalmente se utilizan para su elaboración; así como los estándares y protocolos que manejan estos mismos, los aspectos legales y ciertos artículos que son fundamentales en la afectación de un expediente clínico electrónico, además cuales son las características que logran un excelente desarrollo de un expediente clínico electrónico.
-
 \chapter{Marco Teórico}
+En este capítulo hablaremos sobre la definición de un expediente clínico electrónico, las normas que normalmente se utilizan para su elaboración; así como los estándares y protocolos que manejan estos mismos, los aspectos legales y ciertos artículos que son fundamentales en la afectación de un expediente clínico electrónico, además cuales son las características que logran un excelente desarrollo de un expediente clínico electrónico.
 
 \section{¿Qué es el expediente clínico electrónico?}
 
@@ -50,27 +48,83 @@ A pesar de que la norma del expediente clínico contempla la grabación del expe
 
 \section{El Desarrollo de un expediente clínico electrónico}
 
- Para desarrollar una aplicación con estas características hay una gran cantidad de métodos y tecnologías que podríamos implementar. Ejemplo de ello son los frameworks para el desarrollo web, para poder entender mejor “con el término framework, nos estamos refiriendo a una estructura software compuesta de componentes personalizables e intercambiables para el desarrollo de una aplicación. En otras palabras, un framework se puede considerar como una aplicación genérica incompleta y configurable a la que podemos añadirle las últimas piezas para construir una aplicación concreta.” (Gutiérrez Javier, s.f).
-Pero para poder comprender aún más como funciona un framwork es necesario saber que es el MVC (Modelo – Vista – Controlador).
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
 
-\subsection{Por qué MVC}
+     Para desarrollar una aplicación con estas características hay una gran cantidad de métodos y tecnologías que podríamos implementar. Ejemplo de ello son los frameworks para el desarrollo web, para poder entender mejor “con el término framework, nos estamos refiriendo a una estructura software compuesta de componentes personalizables e intercambiables para el desarrollo de una aplicación. En otras palabras, un framework se puede considerar como una aplicación genérica incompleta y configurable a la que podemos añadirle las últimas piezas para construir una aplicación concreta.” (Gutiérrez Javier, s.f).
+    Pero para poder comprender aún más como funciona un framwork es necesario saber que es el MVC (Modelo – Vista – Controlador).
+    La rama de la ingeniería del software se preocupa por crear procesos que aseguren calidad en los programas que se realizan y esa calidad atiende a diversos parámetros que son deseables para todo desarrollo, como la estructuración de los programas o reutilización del código, lo que debe influir positivamente en la facilidad de desarrollo y el mantenimiento.
+    Los ingenieros del software se dedican a estudiar de qué manera se pueden mejorar los procesos de creación de software y una de las soluciones a las que han llegado es la arquitectura basada en capas que separan el código en función de sus responsabilidades o conceptos. Por tanto, cuando estudiamos MVC lo primero que tenemos que saber es que está ahí para ayudarnos a crear aplicaciones con mayor calidad.
+    }
+    \begin{flushright}
+      (\author{Gutiérrez Javier.},
+      \citeyearNP{http://www.lsi.us.es/~javierj/investigacion_ficheros/Framework.pdf}: 2012)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
 
-La rama de la ingeniería del software se preocupa por crear procesos que aseguren calidad en los programas que se realizan y esa calidad atiende a diversos parámetros que son deseables para todo desarrollo, como la estructuración de los programas o reutilización del código, lo que debe influir positivamente en la facilidad de desarrollo y el mantenimiento.
-Los ingenieros del software se dedican a estudiar de qué manera se pueden mejorar los procesos de creación de software y una de las soluciones a las que han llegado es la arquitectura basada en capas que separan el código en función de sus responsabilidades o conceptos. Por tanto, cuando estudiamos MVC lo primero que tenemos que saber es que está ahí para ayudarnos a crear aplicaciones con mayor calidad. \cite{marco3}
+\section{Modelo vista-controlador (MVC)}
+\subsection{Modelos}
 
-\section{Modelos}
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
 
-Es la capa donde se trabaja con los datos, por tanto, contendrá mecanismos para acceder a la información y también para actualizar su estado. Los datos los tendremos habitualmente en una base de datos, por lo que en los modelos tendremos todas las funciones que accederán a las tablas y harán los correspondientes selects, updates, inserts, etc.
-No obstante, cabe mencionar que cuando se trabaja con MCV lo habitual también es utilizar otras librerías como PDO o algún ORM como Doctrine, que nos permiten trabajar con abstracción de bases de datos y persistencia en objetos. Por ello, en vez de usar directamente sentencias SQL, que suelen depender del motor de base de datos con el que se esté trabajando, se utiliza un dialecto de acceso a datos basado en clases y objetos. \cite{marco3}
+    Es la capa donde se trabaja con los datos, por tanto, contendrá mecanismos para acceder a la información y también para actualizar su estado. Los datos los tendremos habitualmente en una base de datos, por lo que en los modelos tendremos todas las funciones que accederán a las tablas y harán los correspondientes selects, updates, inserts, etc.
+    No obstante, cabe mencionar que cuando se trabaja con MCV lo habitual también es utilizar otras librerías como PDO o algún ORM como Doctrine, que nos permiten trabajar con abstracción de bases de datos y persistencia en objetos. Por ello, en vez de usar directamente sentencias SQL, que suelen depender del motor de base de datos con el que se esté trabajando, se utiliza un dialecto de acceso a datos basado en clases y objetos.
+    }
+    \begin{flushright}
+      (\author{Gutiérrez Javier.},
+      \citeyearNP{http://www.lsi.us.es/~javierj/investigacion_ficheros/Framework.pdf}: 2012)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
 
 
-\section{Vistas}
-Las vistas, como su nombre nos hacen entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
-En la vista generalmente trabajamos con los datos, sin embargo, no se realiza un acceso directo a éstos. Las vistas requerirán los datos a los modelos y ellas se generará la salida, tal como nuestra aplicación requiera. \cite{marco3}
 
-\section{Controladores}
-Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información, etc.
-En realidad, es una capa que sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación. Sin embargo, su responsabilidad no es manipular directamente datos, ni mostrar ningún tipo de salida, sino servir de enlace entre los modelos y las vistas para implementar las diversas necesidades del desarrollo. \cite{marco3} \ref{figura8}
+\subsection{Vistas}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+
+    Las vistas, como su nombre nos hacen entender, contienen el código de nuestra aplicación que va a producir la visualización de las interfaces de usuario, o sea, el código que nos permitirá renderizar los estados de nuestra aplicación en HTML. En las vistas nada más tenemos los códigos HTML y PHP que nos permite mostrar la salida.
+    En la vista generalmente trabajamos con los datos, sin embargo, no se realiza un acceso directo a éstos. Las vistas requerirán los datos a los modelos y ellas se generará la salida, tal como nuestra aplicación requiera.
+    }
+    \begin{flushright}
+      (\author{Gutiérrez Javier.},
+      \citeyearNP{http://www.lsi.us.es/~javierj/investigacion_ficheros/Framework.pdf}: 2012)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
+
+
+\subsection{Controladores}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+
+    Contiene el código necesario para responder a las acciones que se solicitan en la aplicación, como visualizar un elemento, realizar una compra, una búsqueda de información, etc.
+    En realidad, es una capa que sirve de enlace entre las vistas y los modelos, respondiendo a los mecanismos que puedan requerirse para implementar las necesidades de nuestra aplicación. Sin embargo, su responsabilidad no es manipular directamente datos, ni mostrar ningún tipo de salida, sino servir de enlace entre los modelos y las vistas para implementar las diversas necesidades del desarrollo. \ref{figura8}
+    }
+    \begin{flushright}
+      (\author{Gutiérrez Javier.},
+      \citeyearNP{http://www.lsi.us.es/~javierj/investigacion_ficheros/Framework.pdf}: 2012)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
 \begin{figure}[h]
   \label{figura8}
   \centering
@@ -78,10 +132,26 @@ En realidad, es una capa que sirve de enlace entre las vistas y los modelos, re
   \caption{Diagrama MVC.}
 \end{figure}
 
-
+\section{Tecnologías para el desarrollo}
 \subsection{Angular}
-Framework de desarrollo.
-Angular es una herramienta de desarrollo creada por Google, cuyo objetivo es facilitar el manejo de grandes proyectos, el paradigma de programación utilizado es orientado a componentes, lo cual hace que cada componente se pueda reutilizar en distintas áreas del proyecto, ahorrando así grandes cantidades de código y por su puesto manejar proyectos de gran tamaño con mayor eficacia. Angular cuenta con una serie de herramientas que la colocan a la altura de los mejores frameworks de desarrollo web y aplicaciones móvil.  Ejemplo de ellas: \cite{Angular} \ref{figura9}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+    Framework de desarrollo.
+    Angular es una herramienta de desarrollo creada por Google, cuyo objetivo es facilitar el manejo de grandes proyectos, el paradigma de programación utilizado es orientado a componentes, lo cual hace que cada componente se pueda reutilizar en distintas áreas del proyecto, ahorrando así grandes cantidades de código y por su puesto manejar proyectos de gran tamaño con mayor eficacia. Angular cuenta con una serie de herramientas que la colocan a la altura de los mejores frameworks de desarrollo web y aplicaciones móvil.  Ejemplo de ellas:\ref{figura9}
+    }
+    \begin{flushright}
+      (\author{Mozilla Developer Network.},
+      \citeyearNP{https://developer.mozilla.org/en-US/docs/Web/HTML}: 2017)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
+
+
 \begin{figure}[h]
   \label{figura9}
   \centering
@@ -90,7 +160,21 @@ Angular es una herramienta de desarrollo creada por Google, cuyo objetivo es fac
 \end{figure}
 
 \subsection{TypeScript}
-Es un superset (superconjunto) de JavaScript de código abierto, el cual está desarrollado por Microsoft. Está diseñado para utilizarse en su desarrollo la programación orientada a objetos(POO). Lo cual ayuda en el manejo de grandes cantidades de código en proyectos con gran escalabilidad. Haciendo de typeScrip un gran aliado al desarrollar en Angular,hoy en día es el lenguaje que mejor interacción tiene con este framework, además cuenta con una vasta documentación. \cite{typeScript} \ref{figura10}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+    Es un superset (superconjunto) de JavaScript de código abierto, el cual está desarrollado por Microsoft. Está diseñado para utilizarse en su desarrollo la programación orientada a objetos(POO). Lo cual ayuda en el manejo de grandes cantidades de código en proyectos con gran escalabilidad. Haciendo de typeScrip un gran aliado al desarrollar en Angular,hoy en día es el lenguaje que mejor interacción tiene con este framework, además cuenta con una vasta documentación. \ref{figura10}
+    }
+    \begin{flushright}
+      (\author{¿Qué es TypeScript?.},
+      \citeyearNP{https://devcode.la/blog/que-es-typescript/}: 2017)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
 \begin{figure}[h]
   \label{figura10}
   \centering
@@ -101,8 +185,22 @@ Es un superset (superconjunto) de JavaScript de código abierto, el cual está d
 
 
 \subsection{Bulma}
-Bulma es un Framework CSS basado en flexbox, además es totalmente responsivo lo cual significa que se adapta el diseño a el tamaño de la pantalla, modular y la documentación es sumamente extensa en su página oficial.
-Las líneas de diseño de Material Design, propuesta por Google en junio del 2014, son tomadas en Bulma, lo cual tener unas líneas de diseño bien marcadas, facilita a que todo el entorno de la aplicación web sea homogéneo.\cite{Bulma} \ref{figura11}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+    Bulma es un Framework CSS basado en flexbox, además es totalmente responsivo lo cual significa que se adapta el diseño a el tamaño de la pantalla, modular y la documentación es sumamente extensa en su página oficial.
+    Las líneas de diseño de Material Design, propuesta por Google en junio del 2014, son tomadas en Bulma, lo cual tener unas líneas de diseño bien marcadas, facilita a que todo el entorno de la aplicación web sea homogéneo.\ref{figura11}
+    }
+    \begin{flushright}
+      (\author{Merino-Juárez, M.F., Alarcón-Gómez, M.G. y R. Lozano-Ascencio},
+      \citeyearNP{https://developer.mozilla.org/es/docs/Web/CSS}: 2017)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
 \begin{figure}[h]
   \label{figura11}
   \centering
@@ -110,11 +208,24 @@ Las líneas de diseño de Material Design, propuesta por Google en junio del 201
   \caption{Logo de Bulma.}
 \end{figure}
 
-
 \subsection{MySQL}
-MySQL es la base de datos de código abierto número uno del mundo, es la base de datos número uno para Web y es una excelente base de datos embebida. Más de 3.000 ISVs y OEMs, incluyendo 8 de los 10 mayores, y 17 de los 20 principales proveedores de software de todo el mundo confían en MySQL como base de datos de sus productos.
-La gran documentación de MySQL la hace una de las bases de datos más utilizadas en el mundo y además cuenta con una gran comunidad lo cual es de gran ayuda para solucionar problemáticas cotidianas al desarrollar aplicaciones web que interactúan con bases de datos relacionales.
-El software MySQL ™ ofrece una, multi-threaded, multi-usuario muy rápido, robusto y SQL (Structured Query Language) del servidor de base de datos. Servidor MySQL está diseñado para sistemas de producción de misión crítica, carga pesada, así como para integrarse en software para ser distribuido. \cite{mysql} \ref{figura12}
+
+\begin{center}
+  \begin{minipage}{0.9\linewidth}
+    \vspace{5pt}%margen superior
+    {\small
+    MySQL es la base de datos de código abierto número uno del mundo, es la base de datos número uno para Web y es una excelente base de datos embebida. Más de 3.000 ISVs y OEMs, incluyendo 8 de los 10 mayores, y 17 de los 20 principales proveedores de software de todo el mundo confían en MySQL como base de datos de sus productos.
+    La gran documentación de MySQL la hace una de las bases de datos más utilizadas en el mundo y además cuenta con una gran comunidad lo cual es de gran ayuda para solucionar problemáticas cotidianas al desarrollar aplicaciones web que interactúan con bases de datos relacionales.
+    El software MySQL ™ ofrece una, multi-threaded, multi-usuario muy rápido, robusto y SQL (Structured Query Language) del servidor de base de datos. Servidor MySQL está diseñado para sistemas de producción de misión crítica, carga pesada, así como para integrarse en software para ser distribuido. \ref{figura12}
+    }
+    \begin{flushright}
+      (\author{DevCode Blog.},
+      \citeyearNP{https://www.mysql.com/why-mysql/white-papers/las-10-razones-principales-para-usar-mysql-como-base-de-datos-integrada/}: 2017)
+    \end{flushright}
+      \vspace{5pt}%margen inferior de la minipage
+  \end{minipage}
+\end{center}
+
 \begin{figure}[h]
   \label{figura12}
   \centering
