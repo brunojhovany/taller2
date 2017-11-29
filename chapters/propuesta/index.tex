@@ -1,16 +1,12 @@
-\chapter*{Resumen}
-
-
 \chapter{Propuesta} \label{sec:propuesta}
 
 A continuación presentaremos la propuesta técnica del trabajo que usaremos para la elaboración de este sistema de interoperativilidad con SIMBA. Así mismo las herramientas a utilizar y el impacto tecnológico que traerá esto apara el estado de Chiapas. Además la metodología de desarrollo que implementaremos y su justificación de la misma.
 
-\section{Propuesta Técnica}\ref{propuesta}
+\section{Propuesta Técnica}
 
-\begin{figure}[H]
-  \label{propuesta}
+\begin{figure}[h]
   \centering
-  \includegraphics[scale=.2]{lib/assets/propuesta-tecnica}
+  \includegraphics[scale=.1]{lib/assets/propuesta}
   \caption{Propuesta Técnica}
 \end{figure}
 \subsection{Descripción de la propuesta técnica}
@@ -40,7 +36,7 @@ El impácto Tecnológico principal del proyecto será que se desarrolle a las ne
 
       \begin{figure}[h]
         \centering
-        \includegraphics[scale=.3]{lib/assets/diagramaMetodologia}
+        \includegraphics[scale=.7]{lib/assets/cascada}
         \caption{Diagrama de la metodología.}
         \label{metodologia}
       \end{figure}
@@ -55,23 +51,117 @@ los costos del desarrollo.
 
   La decisión por el cual se eligió esta metodología fue por la menera en la que se está trabajando con los contribuyentes exteriores, de parte de Secretaria de Salud recibimos la parte de analizis y requerimientos del sistema, por nuestra parte trabajaremos lo que es la interoperabilidad de los Sistemas de expediente Clínico.
         \subsection{Pasos de la metodología}
-            \subsubsection{Ingeniería y Análisis del Sistema}
-            Debido a que el software es siempre parte de un sistema mayor el trabajo comienza estableciendo los requisitos de todos los elementos del sistema y luego asignando algún subconjunto de estos requisitos al software.
-            \subsubsection{Análisis de los requisitos del software}
-            El proceso de recopilación de los requisitos se centra e intensifica especialmente en el software. El ingeniero de software (Analistas) debe comprender el ámbito de la información del software, así como la función, el rendimiento y las interfaces requeridas.
+            \subsubsection{ Requisitos del software}
+      \begin{center}
+        \begin{minipage}{0.9\linewidth}
+          \vspace{5pt}%margen superior
+          {\small
+                En esta fase se hace un análisis de las necesidades del cliente para determinar las características del software a desarrollar, y se especifica todo lo que debe hacer el sistema sin entrar en detalles técnicos. Hay que ser especialmente cuidadoso en esta primera fase, ya que en este modelo no se pueden añadir nuevos requisitos en mitad del proceso de desarrollo.
+          }
+          \begin{flushright}
+            (\author{En qué consiste el modelo en cascada.},
+            \citeyearNP{https://openclassrooms.com/courses/gestiona-tu-proyecto-de-desarrollo/en-que-consiste-el-modelo-en-cascada}: 2017)
+          \end{flushright}
+            \vspace{5pt}%margen inferior de la minipage
+        \end{minipage}
+      \end{center}
             \subsubsection{Diseño}
-            El diseño del software se enfoca en cuatro atributos distintos del programa: la estructura de los datos, la arquitectura del software, el detalle procedimental y la caracterización de la interfaz. El proceso de diseño traduce los requisitos en una representación del software con la calidad requerida antes de que comience la codificación.
-            \subsubsection{Codificación}
-            El diseño debe traducirse en una forma legible para la maquina. El paso de codificación realiza esta tarea. Si el diseño se realiza de una manera detallada la codificación puede realizarse mecánicamente.
-            \subsubsection{Pruebas}
-            Una vez que se ha generado el código comienza la prueba del programa. La prueba se centra en la lógica interna del software, y en las funciones externas, realizando
-            \subsubsection{Mantenimiento}
-            E software sufrirá cambios después de que se entrega al cliente. Los cambios ocurrirán debido a que hayan encontrado errores, a que el software deba adaptarse a cambios del entorno externo (sistema operativo o dispositivos periféricos), o debido a que el cliente requiera ampliaciones funcionales o del rendimiento.
+            \begin{center}
+              \begin{minipage}{0.9\linewidth}
+                \vspace{5pt}%margen superior
+                {\small
+                En esta etapa se describe la estructura interna del software, y las relaciones entre las entidades que lo componen.
+
+                Descompone y organiza el sistema en elementos que puedan elaborarse por separado, aprovechando las ventajas del desarrollo en equipo. Como resultado surge el SDD (Documento de Diseño del Software), que contiene la descripción de la estructura relacional global del sistema y la especificación de lo que debe hacer cada una de sus partes, así como la manera en que se combinan unas con otras.
+                }
+                \begin{flushright}
+                  (\author{En qué consiste el modelo en cascada.},
+                  \citeyearNP{https://openclassrooms.com/courses/gestiona-tu-proyecto-de-desarrollo/en-que-consiste-el-modelo-en-cascada}: 2017)
+                \end{flushright}
+                  \vspace{5pt}%margen inferior de la minipage
+              \end{minipage}
+            \end{center}
+            \subsubsection{Implementación}
+            \begin{center}
+              \begin{minipage}{0.9\linewidth}
+                \vspace{5pt}%margen superior
+                {\small
+
+                En esta fase se programan los requisitos especificados haciendo uso de las estructuras de datos diseñadas en la fase anterior.La programación es el proceso que lleva de la formulación de un problema de computación, a un programa que se ejecute produciendo los pasos necesarios para resolver dicho problema.
+
+                Al programar, tenemos que realizar actividades como el análisis de las condiciones, la creación de algoritmos,  y la implementación de éstos en un lenguaje de programación específico.
+                }
+                \begin{flushright}
+                  (\author{En qué consiste el modelo en cascada.},
+                  \citeyearNP{https://openclassrooms.com/courses/gestiona-tu-proyecto-de-desarrollo/en-que-consiste-el-modelo-en-cascada}: 2017)
+                \end{flushright}
+                  \vspace{5pt}%margen inferior de la minipage
+              \end{minipage}
+            \end{center}
+            \subsubsection{Verificación}
+            \begin{center}
+              \begin{minipage}{0.9\linewidth}
+                \vspace{5pt}%margen superior
+                {\small
+                Como su propio nombre indica, una vez se termina la fase de implementación se verifica que todos los componentes del sistema funcionen correctamente y cumplen con los requisitos.
+
+                El objetivo de las pruebas es el de obtener información de la calidad del software, y sirven para: encontrar defectos o bugs, aumentar la calidad del software, refinar el código previamente escrito sin miedo a romperlo o introducir nuevos bugs, etc.
+                }
+                \begin{flushright}
+                  (\author{En qué consiste el modelo en cascada.},
+                  \citeyearNP{https://openclassrooms.com/courses/gestiona-tu-proyecto-de-desarrollo/en-que-consiste-el-modelo-en-cascada}: 2017)
+                \end{flushright}
+                  \vspace{5pt}%margen inferior de la minipage
+              \end{minipage}
+            \end{center}
+
+            \subsubsection{Instalación y mantenimiento
+}
+            \begin{center}
+              \begin{minipage}{0.9\linewidth}
+                \vspace{5pt}%margen superior
+                {\small
+
+                Una vez se han desarrollado todas las funcionalidades del software y se ha comprobado que funcionan correctamente, se inicia la fase de instalación y mantenimiento. Se instala la aplicación en el sistema y se comprueba que funcione correctamente en el entorno en que se va a utilizar.
+
+                A partir de ahora hay que asegurarse de que el software funcione y hay que destinar recursos a mantenerlo. El mantenimiento del software consiste en la modificación del producto después de haber sido entregado al cliente, ya sea para corregir errores o para mejorar el rendimiento o las características.
+
+
+                }
+                \begin{flushright}
+                  (\author{En qué consiste el modelo en cascada.},
+                  \citeyearNP{https://openclassrooms.com/courses/gestiona-tu-proyecto-de-desarrollo/en-que-consiste-el-modelo-en-cascada}: 2017)
+                \end{flushright}
+                  \vspace{5pt}%margen inferior de la minipage
+              \end{minipage}
+            \end{center}
 
     \subsection{Pasos de la metodología aplicada en el proyecto}
-          \subsubsection{Ingeniería y Análisis del Sistema}
-          \subsubsection{Análisis de los requisitos del software}
+          \subsubsection{Requisitos del software}
+          \begin{itemize}
+            \item Debe recibir, registrar y administrar documentación clínica externa a través de mecanismos de interoperabilidad.
+            \item Debe recibir, almacenar y mostrar resultados clínicos de estudios de gabinete de fuentes externas como pueden ser las imágenes radiológicas, los archivos de onda de trazados, electrocardiográma, sistemas de farmacia, por medio de mecanismos de interoperabilidad.
+            \item Debe enviar y recibir información, metadatos, imágenes, resultados de laboratorio y documentos por medio de interoperabilidad.
+            \item Debe soportar interoperabilidad semántica mediante el uso de terminologías y modelos estándar para habilitar la interoperabilidad y promover la consistencia de la información compartida.
+            \item Debe apegarse a los protocolos definidos para interactuar con Sistemas Estatales, Institucionales o Nacionales de interoperabilidad de acuerdo a los lineamientos que para este fin sean publicados por la Secretaría de Salud.
+
+          \end{itemize}
+
           \subsubsection{Diseño}
-          \subsubsection{Codificación}
-          \subsubsection{Pruebas}
-          \subsubsection{Mantenimiento}
+
+          \begin{figure}[h]
+            \centering
+            \includegraphics[scale=.3]{lib/assets/casodeuso}
+            \caption{Diagrama de caso de uso.}
+            \label{metodologia}
+          \end{figure}
+
+            \begin{figure}[h]
+             \centering
+              \includegraphics[scale=.5]{lib/assets/secuencia}
+              \caption{Diagrama de caso de uso.}
+              \label{metodologia}
+            \end{figure}
+          \subsubsection{Implementación}
+          \subsubsection{Verificación}
+          \subsubsection{Instalación y mantenimiento}
